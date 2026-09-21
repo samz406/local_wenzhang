@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">AI 工程技能图谱：使用编码智能体</title>
+  <desc id="desc">AI 工程包含四项顶层能力，本图高亮使用编码智能体，并列出五项子能力。</desc>
+  <defs>
+    <linearGradient id="box" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9dcff"/><stop offset="1" stop-color="#8fbbe8"/></linearGradient>
+    <style>
+      .title{font:600 25px Inter,"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#111827}.root{font:700 24px Inter,"Noto Sans SC","Microsoft YaHei",sans-serif}.label{font:500 16px Inter,"Noto Sans SC","Microsoft YaHei",sans-serif}.small{font:500 15px Inter,"Noto Sans SC","Microsoft YaHei",sans-serif}.box{fill:url(#box);stroke:#17364d;stroke-width:2}.active{stroke:#9b2c83;stroke-width:4}.line{fill:none;stroke:#225b73;stroke-width:2.5}.active-line{stroke:#9b2c83;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1200" height="480" fill="#fff"/>
+  <text class="title" x="600" y="42" text-anchor="middle">AI 工程技能图谱：使用编码智能体</text>
+  <rect class="box" x="480" y="72" width="240" height="58" rx="10"/>
+  <text class="root" x="600" y="108" text-anchor="middle">AI 工程</text>
+  <path class="line" d="M600 130V160H195V185 M600 160H465V185 M600 160H735V185 M600 160H1005V185"/>
+  <rect class="box" x="85" y="185" width="220" height="62" rx="10"/>
+  <rect class="box" x="355" y="185" width="220" height="62" rx="10"/>
+  <rect class="box active" x="625" y="185" width="220" height="62" rx="10"/>
+  <rect class="box" x="895" y="185" width="220" height="62" rx="10"/>
+  <text class="label" text-anchor="middle"><tspan x="195" y="211">构建与部署</tspan><tspan x="195" y="232">AI 应用</tspan></text>
+  <text class="label" text-anchor="middle"><tspan x="465" y="211">软件工程</tspan><tspan x="465" y="232">基础</tspan></text>
+  <text class="label" x="735" y="222" text-anchor="middle">使用编码智能体</text>
+  <text class="label" x="1005" y="222" text-anchor="middle">塑造构建方向</text>
+  <path class="line active-line" d="M735 247V302H140 M735 302H1060 M140 302V334 M370 302V334 M600 302V334 M830 302V334 M1060 302V334"/>
+  <rect class="box" x="60" y="334" width="160" height="72" rx="10"/>
+  <rect class="box" x="290" y="334" width="160" height="72" rx="10"/>
+  <rect class="box" x="520" y="334" width="160" height="72" rx="10"/>
+  <rect class="box" x="750" y="334" width="160" height="72" rx="10"/>
+  <rect class="box" x="980" y="334" width="160" height="72" rx="10"/>
+  <text class="small" text-anchor="middle"><tspan x="140" y="363">驾驭</tspan><tspan x="140" y="385">工作流</tspan></text>
+  <text class="small" text-anchor="middle"><tspan x="370" y="363">释放智能体的</tspan><tspan x="370" y="385">自主性</tspan></text>
+  <text class="small" text-anchor="middle"><tspan x="600" y="363">审查工作</tspan><tspan x="600" y="385">成果</tspan></text>
+  <text class="small" text-anchor="middle"><tspan x="830" y="363">定制智能体</tspan><tspan x="830" y="385">及其环境</tspan></text>
+  <text class="small" text-anchor="middle"><tspan x="1060" y="363">编码智能体</tspan><tspan x="1060" y="385">基础</tspan></text>
+</svg>
