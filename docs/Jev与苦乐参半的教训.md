@@ -2,7 +2,7 @@
 
 > 作者：Aman Khan（[@amankhan](https://x.com/amankhan)）  
 > 原文：[Jev and the bittersweet lesson](https://x.com/amankhan/status/2101825598335123781)  
-> 翻译 Url：[https://github.com/samz406/local_wenzhang/blob/main/Jev与苦乐参半的教训.md](https://github.com/samz406/local_wenzhang/blob/main/Jev与苦乐参半的教训.md)
+> 翻译 Url：[https://github.com/samz406/local_wenzhang/blob/main/docs/Jev与苦乐参半的教训.md](https://github.com/samz406/local_wenzhang/blob/main/docs/Jev与苦乐参半的教训.md)
 
 ![文章封面](https://pbs.twimg.com/media/HSssNYUWQAAazdM?format=webp&name=medium)
 
