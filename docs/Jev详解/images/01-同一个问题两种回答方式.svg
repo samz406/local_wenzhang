@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 700" role="img" aria-labelledby="t d">
+  <title id="t">同一个问题，两种回答方式</title><desc id="d">传统大模型逐词生成，Jev 直接返回类型化判断</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6" fill="none" stroke="#202124" stroke-width="1.8"/></marker></defs>
+  <style>.tx{font-family:'Noto Sans SC',sans-serif;fill:#202124}.h{font-size:32px;font-weight:700}.b{font-size:24px}.s{font-size:20px}.box{fill:#fff;stroke:#202124;stroke-width:3}.llm{fill:#e8e0f7}.jev{fill:#d9f0df}.code{fill:#202737}.green{fill:#2f7d52}.red{fill:#b84252}</style>
+  <rect width="1500" height="700" fill="#fff"/>
+  <rect class="box" x="575" y="35" width="350" height="75" rx="18"/><text class="tx h" x="750" y="83" text-anchor="middle">“紧急吗？”</text>
+  <text class="tx b" x="750" y="145" text-anchor="middle" fill="#646a78">一个小问题，两种回答方式</text>
+  <path d="M650 115L270 205" fill="none" stroke="#202124" stroke-width="3" marker-end="url(#a)"/><path d="M850 115L1230 205" fill="none" stroke="#202124" stroke-width="3" marker-end="url(#a)"/>
+  <rect class="box llm" x="70" y="205" width="300" height="80" rx="15"/><text class="tx h" x="220" y="255" text-anchor="middle">通用 LLM</text>
+  <text class="tx b" x="70" y="330">完整生成回答，一次一个词元</text>
+  <g class="tx s" text-anchor="middle"><rect class="box llm" x="70" y="370" width="105" height="55" rx="9"/><text x="122" y="405">“看”</text><rect class="box llm" x="190" y="370" width="105" height="55" rx="9"/><text x="242" y="405">“起来”</text><rect class="box llm" x="310" y="370" width="105" height="55" rx="9"/><text x="362" y="405">“确实”</text><rect class="box llm" x="430" y="370" width="105" height="55" rx="9"/><text x="482" y="405">“紧急”</text><rect class="box" x="550" y="370" width="75" height="55" rx="9"/><text x="587" y="405">{ }</text></g>
+  <path d="M175 397H190M295 397H310M415 397H430M535 397H550" stroke="#202124" stroke-width="3" marker-end="url(#a)"/><rect class="box" x="395" y="480" width="330" height="64" rx="12"/><text class="tx b" x="560" y="520" text-anchor="middle">解析 + 校验 + 重试</text><path d="M587 425V480" stroke="#202124" stroke-width="3" marker-end="url(#a)"/>
+  <text class="tx h red" x="360" y="630" text-anchor="middle">为一个二元答案付出高延迟、高成本</text>
+  <rect class="box jev" x="1130" y="205" width="300" height="80" rx="15"/><text class="tx h" x="1280" y="255" text-anchor="middle">Jev</text>
+  <rect class="code" x="1100" y="350" width="360" height="70" rx="12"/><text x="1130" y="394" font-family="monospace" font-size="28" fill="#8ee5aa">urgent → 0.94</text>
+  <path d="M1280 285V350M1280 420V485" stroke="#2f7d52" stroke-width="4" marker-end="url(#a)"/>
+  <rect class="code" x="1070" y="485" width="400" height="80" rx="12"/><text x="1100" y="520" font-family="monospace" font-size="24" fill="#fff">if urgent &gt; 0.9:</text><text x="1150" y="550" font-family="monospace" font-size="24" fill="#8ee5aa">page_on_call()</text>
+  <text class="tx h green" x="1250" y="630" text-anchor="middle">类型化答案直接进入代码</text>
+</svg>

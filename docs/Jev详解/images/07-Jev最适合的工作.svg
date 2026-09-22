@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 700" role="img" aria-labelledby="t d">
+  <title id="t">Jev 最适合的工作</title><desc id="d">按决策量与答案空间划分 LLM、Jev 与确定性规则的适用范围</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6" fill="none" stroke="#202124" stroke-width="1.8"/></marker></defs>
+  <style>.tx{font-family:'Noto Sans SC',sans-serif;fill:#202124}.h{font-size:36px;font-weight:700}.b{font-size:25px}.s{font-size:20px}.box{stroke-width:3}.green{fill:#d9f0df;stroke:#2f7d52}.purple{fill:#e8e0f7;stroke:#6c5aa7}</style>
+  <rect width="1500" height="700" fill="#fff"/><text class="tx h" x="900" y="55" text-anchor="middle" fill="#3a985b">Jev 的甜蜜点</text>
+  <path d="M170 610V100M170 610H1430" fill="none" stroke="#202124" stroke-width="4" marker-end="url(#a)"/><text class="tx h" x="90" y="90">决策量</text><text class="tx b" x="25" y="170">高频</text><text class="tx b" x="40" y="585">偶发</text><text class="tx b" x="210" y="665">开放式答案</text><text class="tx b" x="1250" y="665">边界明确的答案</text><text class="tx h" x="800" y="690" text-anchor="middle">答案空间</text>
+  <rect class="box purple" x="230" y="160" width="420" height="340" rx="30" stroke-dasharray="12 10"/><text class="tx h" x="440" y="235" text-anchor="middle">开放式工作</text><text class="tx b" x="440" y="315" text-anchor="middle">写作、规划、解释、推理</text><text class="tx h" x="440" y="405" text-anchor="middle">→ 使用 LLM</text>
+  <rect class="box green" x="780" y="145" width="620" height="240" rx="30"/><text class="tx h" x="1090" y="215" text-anchor="middle">Jev 的甜蜜点</text><text class="tx b" x="1090" y="280" text-anchor="middle">模型路由 · 分流 · 重排序</text><text class="tx b" x="1090" y="325" text-anchor="middle">护栏 · 高频标注</text><text class="tx s" x="1090" y="365" text-anchor="middle" fill="#2f7d52">边界明确、反复出现的判断</text>
+  <rect x="860" y="450" width="470" height="105" rx="24" fill="#fff" stroke="#202124" stroke-width="3"/><text class="tx h" x="1095" y="495" text-anchor="middle">确定性规则</text><text class="tx b" x="1095" y="535" text-anchor="middle">→ 普通 if 语句就够了</text>
+</svg>

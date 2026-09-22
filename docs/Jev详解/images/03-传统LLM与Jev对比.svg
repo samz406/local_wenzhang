@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="t d">
+  <title id="t">传统 LLM 与 Jev 对比</title><desc id="d">从输出、采样方式、适用场景、控制权和失败模式比较两者</desc>
+  <rect width="1400" height="800" fill="#eceff1"/>
+  <rect x="40" y="30" width="1320" height="740" rx="30" fill="#050505"/>
+  <style>.t{font-family:'Noto Sans SC',sans-serif;fill:#fff;font-size:27px}.h{font-weight:700;font-size:29px}.l{stroke:#333;stroke-width:2}</style>
+  <text class="t h" x="75" y="85">维度</text><text class="t h" x="280" y="85">传统 LLM</text><text class="t h" x="880" y="85">Jev</text>
+  <path class="l" d="M70 110H1330M70 245H1330M70 380H1330M70 515H1330M70 650H1330"/>
+  <text class="t" x="75" y="175">输出</text><text class="t" x="280" y="175">文本、代码或结构化 JSON</text><text class="t" x="880" y="160"><tspan x="880">Choice、Score 或 Noul，</tspan><tspan x="880" dy="42">并附带概率</tspan></text>
+  <text class="t" x="75" y="310">采样</text><text class="t" x="280" y="310">按顺序逐个生成词元</text><text class="t" x="880" y="295"><tspan x="880">并行评估所有已声明的</tspan><tspan x="880" dy="42">问题</tspan></text>
+  <text class="t" x="75" y="445">适用</text><text class="t" x="280" y="430"><tspan x="280">写作、解释、规划与</tspan><tspan x="280" dy="42">开放式推理</tspan></text><text class="t" x="880" y="430"><tspan x="880">软件内部的</tspan><tspan x="880" dy="42">边界明确的判断</tspan></text>
+  <text class="t" x="75" y="580">控制</text><text class="t" x="280" y="565"><tspan x="280">模型可以决定接下来</tspan><tspan x="280" dy="42">说什么、做什么</tspan></text><text class="t" x="880" y="565"><tspan x="880">代码定义选项，</tspan><tspan x="880" dy="42">并控制分支</tspan></text>
+  <text class="t" x="75" y="710">失败</text><text class="t" x="280" y="695"><tspan x="280">答案错误、捏造事实，</tspan><tspan x="280" dy="42">或结构不合法</tspan></text><text class="t" x="880" y="695"><tspan x="880">给出错误但合法的答案；</tspan><tspan x="880" dy="42">结构仍符合 Schema</tspan></text>
+</svg>

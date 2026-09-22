@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 700" role="img" aria-labelledby="t d">
+  <title id="t">Jev 安全上线阶梯</title><desc id="d">从影子模式、复核阈值到低风险自动化和更广泛自动化的渐进上线方式</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6" fill="none" stroke="#202124" stroke-width="1.8"/></marker></defs>
+  <style>.tx{font-family:'Noto Sans SC',sans-serif;fill:#202124}.h{font-size:29px;font-weight:700}.b{font-size:22px}.s{font-size:19px}.box{stroke:#202124;stroke-width:3}.blue{fill:#dbe7fb}.green{fill:#d9f0df}.yellow{fill:#fff4c8;stroke:#b39222}</style>
+  <rect width="1500" height="700" fill="#fff"/>
+  <rect class="box blue" x="35" y="365" width="320" height="120" rx="24"/><text class="tx h" x="195" y="412" text-anchor="middle">1. 影子模式</text><text class="tx b" x="195" y="452" text-anchor="middle">与当前流程并行运行</text>
+  <rect class="box blue" x="390" y="275" width="330" height="130" rx="24"/><text class="tx h" x="555" y="325" text-anchor="middle">2. 复核 + 阈值</text><text class="tx b" x="555" y="365" text-anchor="middle">用自己的数据设定分界线</text>
+  <rect class="box green" x="755" y="180" width="330" height="130" rx="24"/><text class="tx h" x="920" y="230" text-anchor="middle">3. 低风险自动化</text><text class="tx b" x="920" y="270" text-anchor="middle">先自动执行最安全的分支</text>
+  <rect class="box green" x="1120" y="85" width="345" height="130" rx="24"/><text class="tx h" x="1292" y="135" text-anchor="middle">4. 扩大自动化</text><text class="tx b" x="1292" y="175" text-anchor="middle">信任增长后再拓宽范围</text><text class="tx h" x="1285" y="55" text-anchor="middle" fill="#2f7d52">低置信度案例仍由人工复核</text>
+  <g fill="none" stroke="#202124" stroke-width="4" marker-end="url(#a)"><path d="M355 390L390 335"/><path d="M720 300L755 245"/><path d="M1085 205L1120 150"/></g>
+  <rect class="yellow" x="35" y="530" width="1430" height="85" rx="20"/><text class="tx b" x="750" y="582" text-anchor="middle">评估集贯穿每个阶段：覆盖代表性、模糊和对抗性案例</text><g stroke="#b39222" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#a)"><path d="M195 530V485"/><path d="M555 530V405"/><path d="M920 530V310"/><path d="M1292 530V215"/></g>
+  <text class="tx h" x="750" y="675" text-anchor="middle" fill="#59606d">先自动化最安全的分支；遇到不确定情况，就交给人工或更强的模型兜底。</text>
+</svg>
