@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+  <style>text{font-family:Arial,'Noto Sans CJK SC','Noto Sans SC',sans-serif;fill:#242329}.name{font-size:23px;font-weight:700}.meta{font-size:16px;fill:#67636b}.body{font-size:20px}.strong{font-size:20px;font-weight:700}.small{font-size:18px;fill:#4e4a52}</style>
+  <rect width="1600" height="840" fill="#fff"/><rect width="1600" height="48" fill="#4b154c"/><rect x="110" y="7" width="1380" height="34" rx="8" fill="#6d3c6e"/><text x="800" y="31" text-anchor="middle" fill="#fff" font-family="Arial,'Noto Sans SC'" font-size="17">在 #desk 中搜索</text>
+  <text x="28" y="92" font-size="26" font-family="Arial,'Noto Sans SC'" font-weight="700"># desk</text><line x1="0" y1="116" x2="1600" y2="116" stroke="#ddd"/><rect x="755" y="127" width="90" height="34" rx="17" fill="#fff" stroke="#ccc"/><text x="800" y="150" text-anchor="middle" font-size="16" font-family="Arial,'Noto Sans SC'">今天</text>
+  <circle cx="55" cy="205" r="30" fill="#c7e4ef"/><text x="55" y="212" text-anchor="middle" font-size="20" font-weight="700">R</text><text class="name" x="100" y="192">Rahul</text><text class="meta" x="175" y="192">10:14</text>
+  <text class="body" x="100" y="226"><tspan fill="#1386bd" font-weight="700">@Viktor</tspan><tspan> 请接管本周的新闻简报。</tspan></text><text class="body" x="100" y="260">完成研究、整理候选主题、按照我们的表达风格起草 4 篇稿件，并处理后台运营工作</text><text class="body" x="100" y="290">（排版、定时发布和效果追踪）。把所有结果发到这里，等待我审核和批准。</text>
+  <rect x="26" y="335" width="60" height="60" rx="12" fill="#7650f3"/><text x="56" y="376" text-anchor="middle" font-size="32" font-weight="700" fill="#fff">V</text><text class="name" x="100" y="352">Viktor</text><text class="meta" x="185" y="352">应用 · 10:31</text><text class="strong" x="100" y="388">全部完成，整套工作流已经跑完。交付内容如下：</text>
+  <text class="strong" x="125" y="432">🔎 每周研究</text><text class="small" x="155" y="463">研究本周主题，从已有信息源提取洞见，并整理出一份附有理由的候选清单。</text><text class="small" x="155" y="490">📝 5 个选题 → 查看候选清单</text>
+  <text class="strong" x="125" y="530">📝 稿件（4 篇）</text><text class="small" x="155" y="561">根据已批准的候选清单，按照我们的表达风格完成 4 篇新闻简报稿件。</text><text class="small" x="155" y="588">📄 稿件 → 查看草稿</text>
+  <text class="strong" x="125" y="628">⚙ 后台运营</text><text class="small" x="155" y="659">完成排版、添加到 CMS、排好未来 4 周的发布计划，并更新追踪表。</text><text class="small" x="155" y="686">✅ 运营状态 → 查看检查清单</text>
+  <text class="body" x="100" y="731">所有内容都已准备好，等待你的审核。不再需要额外找写手；草稿、候选清单和运营步骤</text><text class="body" x="100" y="760">都在等你修改和批准。</text>
+  <rect x="25" y="785" width="1550" height="43" rx="8" fill="#fff" stroke="#aaa"/><text x="45" y="813" font-size="18" fill="#777" font-family="Arial,'Noto Sans SC'">发送消息到 #desk</text>
+</svg>

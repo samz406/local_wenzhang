@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+  <style>text{font-family:Arial,'Noto Sans CJK SC','Noto Sans SC',sans-serif;fill:#242329}.name{font-size:23px;font-weight:700}.meta{font-size:16px;fill:#67636b}.body{font-size:20px}.strong{font-size:20px;font-weight:700}.small{font-size:18px;fill:#4e4a52}</style>
+  <rect width="1600" height="820" fill="#fff"/><rect width="1600" height="48" fill="#4b154c"/><rect x="110" y="7" width="1380" height="34" rx="8" fill="#6d3c6e"/><text x="800" y="31" text-anchor="middle" fill="#fff" font-family="Arial,'Noto Sans SC'" font-size="17">在 #spark 中搜索</text>
+  <text x="28" y="92" font-size="26" font-family="Arial,'Noto Sans SC'" font-weight="700"># spark</text><line x1="0" y1="116" x2="1600" y2="116" stroke="#ddd"/><rect x="755" y="127" width="90" height="34" rx="17" fill="#fff" stroke="#ccc"/><text x="800" y="150" text-anchor="middle" font-size="16" font-family="Arial,'Noto Sans SC'">今天</text>
+  <circle cx="55" cy="205" r="30" fill="#c7e4ef"/><text x="55" y="212" text-anchor="middle" font-size="20" font-weight="700">R</text><text class="name" x="100" y="192">Rahul</text><text class="meta" x="175" y="192">10:14</text>
+  <text class="body" x="100" y="228"><tspan fill="#1386bd" font-weight="700">@Viktor</tspan><tspan> 能为 Acadeller Spark 配置从安装到付费的完整漏斗，并让报表开始运行吗？</tspan></text><text class="body" x="100" y="258">这些配置我还完全没动过。</text>
+  <rect x="26" y="302" width="60" height="60" rx="12" fill="#7650f3"/><text x="56" y="343" text-anchor="middle" font-size="32" font-weight="700" fill="#fff">V</text><text class="name" x="100" y="320">Viktor</text><text class="meta" x="185" y="320">应用 · 10:31</text><text class="strong" x="100" y="358">埋点已完成并开始运行，用时 38 分钟。具体完成了：</text>
+  <text class="strong" x="125" y="407">📊 完成配置，并把每日数据放进这个频道</text><text class="small" x="155" y="439">创建账户、统一事件命名；每天早上在这里发送一份摘要，包括安装量、首次任务数和新增订阅。</text>
+  <text class="strong" x="125" y="486">🧭 映射从 App Store 安装到付费的每一步</text><text class="small" x="155" y="518">目前只授予读取权限：可以查看事件，但不能修改追踪方案，也不能操作构建版本。</text>
+  <text class="strong" x="125" y="565">📨 使用原始事件重建上月数据并完成测试</text><text class="small" x="155" y="597">结果与 App Store Connect 的差异小于 1%；差异原因已记录在线程中，是时区问题。</text>
+  <text class="body" x="100" y="650">正式上线前还有一件事需要你决定：系统希望获得追踪方案的写权限，以便自行添加事件。</text><text class="body" x="100" y="680">在你明确同意之前，我一直保持关闭状态。</text>
+  <rect x="25" y="746" width="1550" height="54" rx="8" fill="#fff" stroke="#aaa"/><text x="45" y="780" font-size="18" fill="#777" font-family="Arial,'Noto Sans SC'">发送消息到 #spark</text>
+</svg>
