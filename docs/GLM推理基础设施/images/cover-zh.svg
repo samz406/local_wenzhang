@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#151515"/><stop offset="1" stop-color="#020202"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1376" height="768" fill="url(#bg)"/>
+  <path d="M1075 665C705 760 258 624 253 301C250 102 488 50 736 72C1018 97 1168 266 1088 446C1018 602 800 590 788 450C778 334 930 292 1001 374C1051 431 1001 523 928 511C870 501 857 433 900 405" fill="none" stroke="#bfc2c6" stroke-width="3" opacity=".54" filter="url(#glow)"/>
+  <text x="688" y="345" text-anchor="middle" fill="#fff" font-family="Arial,'Noto Sans SC',sans-serif" font-size="88" font-weight="600">迈向递归式自我改进</text>
+  <line x1="603" y1="394" x2="773" y2="394" stroke="#c9c9c9" opacity=".7"/>
+  <text x="688" y="475" text-anchor="middle" fill="#ddd" font-family="Arial,'Noto Sans SC',sans-serif" font-size="42">GLM 如何构建自己的推理基础设施</text>
+</svg>

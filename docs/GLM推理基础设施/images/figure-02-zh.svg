@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#748093"/></marker><marker id="t" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#198f91"/></marker></defs>
+  <style>text{font-family:Arial,'Noto Sans SC',sans-serif;fill:#272b32}.h{font-size:25px;font-weight:700}.node{fill:#fff;stroke:#758093;stroke-width:2}.agent{fill:#fff;stroke:#31579a;stroke-width:3}.iface{fill:#eaf7f5;stroke:#198f91;stroke-width:3}.sub{fill:#fff;stroke:#198f91;stroke-width:2}.label{font-size:17px}.small{font-size:14px;fill:#596474}.teal{fill:#168c8d;font-weight:700}</style>
+  <rect width="1440" height="800" fill="#fff"/><line x1="430" y1="45" x2="430" y2="755" stroke="#ccd3dc" stroke-width="2" stroke-dasharray="7 5"/>
+  <text class="h" x="35" y="48">（a）稀疏反馈</text><text class="h" x="470" y="48">（b）密集反馈</text>
+  <rect class="agent" x="150" y="190" width="210" height="78" rx="10"/><text class="h" x="255" y="238" text-anchor="middle" fill="#31579a">基础设施智能体</text>
+  <rect class="node" x="150" y="390" width="210" height="72" rx="10"/><text class="label" x="255" y="433" text-anchor="middle">完整运行</text>
+  <rect class="node" x="150" y="610" width="210" height="72" rx="10"/><text class="label" x="255" y="653" text-anchor="middle">最终结果</text>
+  <path d="M255 268V390" fill="none" stroke="#748093" stroke-width="2" marker-end="url(#a)"/><path d="M255 462V610" fill="none" stroke="#748093" stroke-width="2" marker-end="url(#a)"/><path d="M150 646H60V230H150" fill="none" stroke="#748093" stroke-width="2" marker-end="url(#a)"/>
+  <text class="small" x="66" y="213">只有端到端反馈</text><text class="small" x="255" y="540" text-anchor="middle">等待完整运行结束</text>
+  <rect class="node" x="805" y="55" width="230" height="68" rx="10"/><text class="h" x="920" y="98" text-anchor="middle">工程师</text><text class="small" x="1050" y="95">目标 · 系统边界 · 审查</text>
+  <path d="M920 123V178" fill="none" stroke="#748093" stroke-width="2" marker-end="url(#a)"/>
+  <rect class="agent" x="800" y="178" width="240" height="75" rx="10"/><text class="h" x="920" y="224" text-anchor="middle" fill="#31579a">基础设施智能体</text>
+  <text class="small" x="940" y="278">提出假设 · 修改代码</text><path d="M920 253V300" fill="none" stroke="#198f91" stroke-width="3" marker-end="url(#t)"/>
+  <rect class="iface" x="490" y="300" width="900" height="370" rx="12"/><text class="h teal" x="940" y="340" text-anchor="middle">中间验证接口</text>
+  <rect class="sub" x="520" y="360" width="260" height="155" rx="9"/><text class="h teal" x="650" y="397" text-anchor="middle">正确性</text><text class="small" x="650" y="426" text-anchor="middle">算得正确吗？</text><text class="label" x="650" y="463" text-anchor="middle">内核级对照参考实现</text><text class="label" x="650" y="489" text-anchor="middle">数值误差 · 最小复现</text>
+  <rect class="sub" x="810" y="360" width="260" height="155" rx="9"/><text class="h teal" x="940" y="397" text-anchor="middle">系统行为</text><text class="small" x="940" y="426" text-anchor="middle">时间花到哪里去了？</text><text class="label" x="940" y="463" text-anchor="middle">运行日志 · 执行轨迹</text><text class="label" x="940" y="489" text-anchor="middle">运行事件 · 线程状态</text>
+  <rect class="sub" x="1100" y="360" width="260" height="155" rx="9"/><text class="h teal" x="1230" y="397" text-anchor="middle">性能</text><text class="small" x="1230" y="426" text-anchor="middle">哪种方案更好，何时更好？</text><text class="label" x="1230" y="463" text-anchor="middle">微基准 · 计算/传输重叠</text><text class="label" x="1230" y="489" text-anchor="middle">端到端指标 · 服务收益</text>
+  <text class="h teal" x="520" y="550">三类反馈共有的属性</text>
+  <rect x="520" y="568" width="840" height="30" rx="6" fill="#d9eeee"/><text class="label" x="540" y="589" font-weight="700">局部</text><text class="small" x="710" y="589">关联具体启动参数、代码改动、内核、输入、线程或代码路径</text>
+  <rect x="520" y="606" width="840" height="30" rx="6" fill="#d9eeee"/><text class="label" x="540" y="627" font-weight="700">低成本且及时</text><text class="small" x="710" y="627">每个假设都能验证，不必完整部署或执行端到端压力测试</text>
+  <rect x="520" y="644" width="840" height="30" rx="6" fill="#d9eeee"/><text class="label" x="540" y="665" font-weight="700">客观</text><text class="small" x="710" y="665">依据参考实现、测试和受控实验，而不是仅凭相关性</text>
+  <path d="M490 565H455V215H800" fill="none" stroke="#198f91" stroke-width="3" marker-end="url(#t)"/><text class="label teal" x="520" y="208">局部证据 · 及时纠偏</text>
+  <rect class="node" x="835" y="710" width="210" height="64" rx="10"/><text class="label" x="940" y="748" text-anchor="middle">端到端验收</text><path d="M940 670V710" fill="none" stroke="#748093" stroke-width="2" marker-end="url(#a)"/><text class="small" x="955" y="698">候选改动</text>
+  <path d="M1045 742H1398V215H1040" fill="none" stroke="#748093" stroke-width="2" marker-end="url(#a)"/><text class="small" x="1180" y="207">最终反馈</text>
+</svg>
