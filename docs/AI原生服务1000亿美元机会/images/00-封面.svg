@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" role="img" aria-labelledby="t d">
+  <title id="t">AI 原生服务：从卖软件转向交付工作成果</title><desc id="d">左侧软件货架已经售罄，右侧由 AI 与人协作交付发票、理赔、合同、申报等工作</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6" fill="none" stroke="#222" stroke-width="1.7"/></marker></defs>
+  <style>.tx{font-family:'Noto Sans SC',sans-serif;fill:#222}.h{font-size:46px;font-weight:800}.b{font-size:28px}.s{font-size:22px}.box{fill:#fff;stroke:#222;stroke-width:4}.y{fill:#ffe76a}.blue{fill:#bfe3ff}</style>
+  <rect width="1600" height="640" fill="#fbfaf4"/>
+  <rect class="box" x="70" y="195" width="360" height="300"/><rect class="blue" x="75" y="200" width="350" height="55"/><text class="tx h" x="250" y="242" text-anchor="middle">软件</text><path d="M95 315H405M95 390H405M95 465H405" stroke="#222" stroke-width="4"/><text class="tx b" x="250" y="545" text-anchor="middle" fill="#b84242">已售罄</text>
+  <path d="M470 340H610" stroke="#222" stroke-width="5" marker-end="url(#a)"/><text class="tx h" x="540" y="305" text-anchor="middle">→</text>
+  <rect class="box" x="650" y="80" width="850" height="470"/><rect class="y" x="900" y="95" width="350" height="82"/><text class="tx h" x="1075" y="150" text-anchor="middle">交付工作</text>
+  <g class="tx b" text-anchor="middle"><rect class="box" x="700" y="215" width="190" height="70"/><text x="795" y="260">发票处理</text><rect class="box" x="920" y="215" width="190" height="70"/><text x="1015" y="260">理赔编码</text><rect class="box" x="1140" y="215" width="190" height="70"/><text x="1235" y="260">合同审查</text><rect class="box" x="700" y="330" width="190" height="70"/><text x="795" y="375">监管申报</text><rect class="box" x="920" y="330" width="190" height="70"/><text x="1015" y="375">研究分析</text><rect class="box" x="1140" y="330" width="190" height="70"/><text x="1235" y="375">采购排期</text></g>
+  <circle cx="1400" cy="360" r="55" fill="#d9f0df" stroke="#222" stroke-width="4"/><text class="tx h" x="1400" y="376" text-anchor="middle">AI</text><text class="tx s" x="1075" y="495" text-anchor="middle">智能体完成大部分工作，人只处理仍需判断的环节</text>
+</svg>

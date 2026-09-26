@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254" role="img" aria-labelledby="t d">
+  <title id="t">AI 原生服务机会地图</title><desc id="d">按是否外包和结果是否可检验划分四个象限，已外包且可检验是最佳区域</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6" fill="none" stroke="#222" stroke-width="1.8"/></marker></defs>
+  <style>.tx{font-family:'Noto Sans SC',sans-serif;fill:#222}.h{font-size:52px;font-weight:800}.b{font-size:31px}.s{font-size:24px}.y{fill:#ffe96b}.green{fill:#31915d}.red{fill:#d94343}</style>
+  <rect width="1254" height="1254" fill="#fbfaf5"/><text class="tx h" x="627" y="75" text-anchor="middle">AI 原生服务机会地图</text><rect class="y" x="270" y="105" width="714" height="65" rx="12"/><text class="tx b" x="627" y="150" text-anchor="middle">已经外包 + 结果可检验 = 最佳机会</text>
+  <path d="M627 1080V245M180 665H1085" fill="none" stroke="#222" stroke-width="5" marker-end="url(#a)"/><text class="tx b" x="627" y="225" text-anchor="middle">结果可检验</text><text class="tx b" x="627" y="1140" text-anchor="middle">高度依赖判断</text><text class="tx b" x="100" y="650">内部完成</text><text class="tx b" x="1090" y="650">已经外包</text>
+  <text class="tx h" x="880" y="325" text-anchor="middle">★ 在这里做</text><text class="tx s" x="780" y="390"><tspan x="780">医疗账单与编码</tspan><tspan x="780" dy="36">商业保险报价</tspan><tspan x="780" dy="36">租约信息提取</tspan><tspan x="780" dy="36">监管申报</tspan><tspan x="780" dy="36">索赔函</tspan></text>
+  <text class="tx h" x="365" y="325" text-anchor="middle">销售更难</text><text class="tx s" x="365" y="390" text-anchor="middle"><tspan x="365">把它定位为</tspan><tspan x="365" dy="36">内部团队使用的工具</tspan></text>
+  <text class="tx h red" x="365" y="785" text-anchor="middle">跳过</text><text class="tx s" x="365" y="840" text-anchor="middle"><tspan x="365">这是一份工作，</tspan><tspan x="365" dy="36">不是一门生意</tspan></text><path d="M300 900L430 770M300 770L430 900" stroke="#d94343" stroke-width="14"/>
+  <text class="tx h" x="880" y="785" text-anchor="middle">保留人工复核</text><text class="tx s" x="880" y="840" text-anchor="middle"><tspan x="880">AI 负责准备，</tspan><tspan x="880" dy="36">由人做最终判断</tspan></text><circle cx="830" cy="940" r="40" fill="#fff" stroke="#222" stroke-width="4"/><rect x="780" y="985" width="100" height="75" rx="25" fill="#fff" stroke="#222" stroke-width="4"/>
+  <path d="M220 1190H1034" stroke="#31915d" stroke-width="7"/><text class="tx b green" x="627" y="1170" text-anchor="middle">寻找已经付费、能够重复、规则明确的工作</text>
+</svg>

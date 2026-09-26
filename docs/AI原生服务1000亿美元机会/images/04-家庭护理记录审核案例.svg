@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" role="img" aria-labelledby="t d">
+  <title id="t">家庭护理记录审核案例</title><desc id="d">每月两千份记录经过 AI 检查和人工风险复核，最终回传仪表盘</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6" fill="none" stroke="#222" stroke-width="1.8"/></marker></defs>
+  <style>.tx{font-family:'Noto Sans SC',sans-serif;fill:#222}.h{font-size:54px;font-weight:800}.b{font-size:32px}.s{font-size:25px}.box{fill:#fff;stroke:#222;stroke-width:4}.y{fill:#ffe96b}.green{fill:#31915d}</style>
+  <rect width="1400" height="1050" fill="#fbfaf5"/><text class="tx h" x="700" y="90" text-anchor="middle">一个完整案例</text><rect class="y" x="430" y="120" width="540" height="72" rx="12"/><text class="tx b" x="700" y="169" text-anchor="middle">家庭护理记录审核</text>
+  <g class="tx b" text-anchor="middle"><text x="180" y="295">每月 2,000 份记录</text><text x="500" y="295">AI 检查每一份</text><text x="850" y="295"><tspan x="850">高风险记录</tspan><tspan x="850" dy="42">进入人工复核</tspan></text><text x="1190" y="295"><tspan x="1190">仪表盘回传</tspan><tspan x="1190" dy="42">给服务机构</tspan></text></g>
+  <g class="box"><rect x="75" y="390" width="170" height="210" rx="8"/><rect x="100" y="365" width="170" height="210" rx="8"/><rect x="125" y="340" width="170" height="210" rx="8"/><circle cx="455" cy="455" r="85"/><rect x="555" y="385" width="115" height="150" rx="12"/><circle cx="805" cy="420" r="42"/><rect x="740" y="470" width="130" height="110" rx="35"/><ellipse cx="900" cy="455" rx="75" ry="50"/><circle cx="900" cy="455" r="25"/><rect x="1090" y="355" width="250" height="230" rx="16"/></g>
+  <text class="tx h" x="455" y="475" text-anchor="middle">AI</text><path d="M1120 410H1310M1140 530V450M1190 530V475M1240 530V430M1290 530V490" stroke="#31915d" stroke-width="8"/>
+  <g stroke="#222" stroke-width="4" marker-end="url(#a)"><path d="M300 455H355"/><path d="M680 455H720"/><path d="M980 455H1080"/></g>
+  <g class="tx b" text-anchor="middle"><rect class="y" x="75" y="690" width="240" height="65" rx="12"/><text x="195" y="734">每份 2 美元</text><rect class="y" x="400" y="690" width="270" height="65" rx="12"/><text x="535" y="734">每家每月 4,000 美元</text><rect class="y" x="825" y="675" width="400" height="95" rx="12"/><text x="1025" y="715"><tspan x="1025">10 家机构 =</tspan><tspan x="1025" dy="40">每月 4 万美元</tspan></text></g>
+  <path d="M280 920H1120" stroke="#31915d" stroke-width="7"/><text class="tx b green" x="700" y="900" text-anchor="middle">规则明确、看似无聊的垂直工作，也能成为真正的生意</text>
+</svg>
