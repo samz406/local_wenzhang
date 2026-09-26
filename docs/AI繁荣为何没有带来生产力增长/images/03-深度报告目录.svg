@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="690" viewBox="0 0 1600 690" role="img" aria-labelledby="title desc">
+  <title id="title">AI 投资回报率深度报告目录</title>
+  <desc id="desc">报告包括执行摘要、引言、AI 使用成本、任务层面、企业层面、行业层面和提升 AI 投资回报率七章。</desc>
+  <rect width="1600" height="690" fill="#fff"/>
+  <style>text{font-family:'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#171717}.item{font-size:46px}.num{font-size:42px}</style>
+  <text x="55" y="70" font-size="20" fill="#777">AI 投资回报率</text>
+  <text x="55" y="125" font-size="48" font-weight="700">目录</text>
+  <g class="item">
+    <text x="55" y="220">01　执行摘要</text><text x="1510" y="220" class="num">04</text>
+    <text x="55" y="285">02　引言</text><text x="1510" y="285" class="num">07</text>
+    <text x="55" y="350">03　使用 AI 的成本</text><text x="1510" y="350" class="num">15</text>
+    <text x="55" y="415">04　任务层面</text><text x="1510" y="415" class="num">22</text>
+    <text x="55" y="480">05　企业层面</text><text x="1510" y="480" class="num">34</text>
+    <text x="55" y="545">06　行业层面</text><text x="1510" y="545" class="num">45</text>
+    <text x="55" y="610">07　如何提高 AI 投资回报率</text><text x="1510" y="610" class="num">55</text>
+  </g>
+</svg>

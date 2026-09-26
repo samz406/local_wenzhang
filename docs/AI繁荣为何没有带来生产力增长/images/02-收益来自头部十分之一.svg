@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="890" viewBox="0 0 1100 890" role="img" aria-labelledby="title desc">
+  <title id="title">几乎所有收益都来自头部十分之一</title>
+  <desc id="desc">按公司分位数比较对照组与实验组期末营收。前九十分位以前差异很小，最高十分之一出现显著差距。</desc>
+  <rect width="1100" height="890" fill="#fff"/>
+  <style>text{font-family:'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#252525}.axis{font-size:22px}.tick{font-size:18px}.note{font-size:20px}</style>
+  <text x="95" y="62" font-size="40" font-weight="700">收益几乎全部来自头部十分之一</text>
+  <rect x="100" y="82" width="18" height="18" fill="#ead49a"/><text x="128" y="98" font-size="18">对照组</text>
+  <rect x="225" y="82" width="18" height="18" fill="#ad43f2"/><text x="253" y="98" font-size="18">实验组</text>
+  <rect x="790" y="105" width="220" height="675" fill="#f3e5ff"/>
+  <line x1="100" y1="780" x2="1010" y2="780" stroke="#bbb"/><line x1="100" y1="120" x2="100" y2="780" stroke="#bbb"/>
+  <g stroke="#e5e5e5">
+    <line x1="100" y1="670" x2="1010" y2="670"/><line x1="100" y1="560" x2="1010" y2="560"/><line x1="100" y1="450" x2="1010" y2="450"/>
+    <line x1="100" y1="340" x2="1010" y2="340"/><line x1="100" y1="230" x2="1010" y2="230"/><line x1="100" y1="120" x2="1010" y2="120"/>
+  </g>
+  <g class="tick" text-anchor="end">
+    <text x="88" y="786">0</text><text x="88" y="676">10 万</text><text x="88" y="566">20 万</text><text x="88" y="456">30 万</text><text x="88" y="346">40 万</text><text x="88" y="236">50 万</text><text x="88" y="126">60 万</text>
+  </g>
+  <text x="36" y="510" transform="rotate(-90 36 510)" class="axis">期末营收（美元）</text>
+  <g class="tick" text-anchor="middle">
+    <text x="140" y="815">5</text><text x="230" y="815">15</text><text x="320" y="815">25</text><text x="410" y="815">35</text><text x="500" y="815">45</text><text x="590" y="815">55</text><text x="680" y="815">65</text><text x="770" y="815">75</text><text x="860" y="815">85</text><text x="950" y="815">95</text>
+  </g>
+  <text x="490" y="850" class="axis">企业分位数（%）</text>
+  <g fill="#ead49a">
+    <circle cx="140" cy="778" r="8"/><circle cx="185" cy="778" r="8"/><circle cx="230" cy="777" r="8"/><circle cx="275" cy="777" r="8"/><circle cx="320" cy="776" r="8"/><circle cx="365" cy="776" r="8"/><circle cx="410" cy="775" r="8"/><circle cx="455" cy="775" r="8"/><circle cx="500" cy="774" r="8"/><circle cx="545" cy="773" r="8"/><circle cx="590" cy="772" r="8"/><circle cx="635" cy="770" r="8"/><circle cx="680" cy="768" r="8"/><circle cx="725" cy="766" r="8"/><circle cx="770" cy="761" r="8"/><circle cx="815" cy="756" r="8"/><circle cx="860" cy="725" r="8"/><circle cx="905" cy="670" r="9"/><circle cx="950" cy="521" r="10"/>
+  </g>
+  <g fill="#ad43f2">
+    <circle cx="500" cy="773" r="7"/><circle cx="545" cy="772" r="7"/><circle cx="590" cy="770" r="7"/><circle cx="635" cy="768" r="7"/><circle cx="680" cy="764" r="7"/><circle cx="725" cy="759" r="7"/><circle cx="770" cy="755" r="8"/><circle cx="815" cy="747" r="8"/><circle cx="860" cy="708" r="9"/><circle cx="905" cy="610" r="10"/><circle cx="950" cy="230" r="11"/>
+  </g>
+  <g stroke="#ad43f2" stroke-width="3"><line x1="950" y1="150" x2="950" y2="315"/><line x1="905" y1="565" x2="905" y2="655"/><line x1="860" y1="675" x2="860" y2="742"/></g>
+  <g stroke="#ead49a" stroke-width="3"><line x1="950" y1="480" x2="950" y2="565"/><line x1="905" y1="635" x2="905" y2="705"/></g>
+  <rect x="540" y="140" width="340" height="118" fill="#f6ebff"/><rect x="540" y="140" width="7" height="118" fill="#ad43f2"/>
+  <text x="565" y="177" class="note"><tspan x="565" dy="0">差距从这里拉开：在企业排名</tspan><tspan x="565" dy="28">前 10% 的位置，实验组约为</tspan><tspan x="565" dy="28">50 万美元，对照组约 23.5 万美元。</tspan></text>
+  <rect x="180" y="565" width="350" height="125" fill="#fcf8ea"/><rect x="180" y="565" width="7" height="125" fill="#ead49a"/>
+  <text x="205" y="602" class="note"><tspan x="205" dy="0">对典型初创公司而言，第 10 周的营收</tspan><tspan x="205" dy="28">在两组中都接近零。重组工作方式</tspan><tspan x="205" dy="28">抬高了上限，却没有抬高下限。</tspan></text>
+  <text x="60" y="875" font-family="serif" font-size="14" letter-spacing="4">与我共学</text>
+  <text x="360" y="875" font-size="16">来源：《将 AI 引入生产：企业绩效的实地实验》</text>
+</svg>

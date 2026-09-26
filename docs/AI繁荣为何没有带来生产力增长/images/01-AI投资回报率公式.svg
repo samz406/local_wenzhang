@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="260" viewBox="0 0 1600 260" role="img" aria-labelledby="title desc">
+  <title id="title">AI 投资回报率公式</title>
+  <desc id="desc">AI 投资回报率等于 AI 创造的财务价值减去 AI 成本，再除以 AI 成本。</desc>
+  <rect width="1600" height="260" fill="#fff"/>
+  <style>text{font-family:'Noto Serif CJK SC','Songti SC',serif;fill:#262326}.purple{fill:#6925d8;font-style:italic}</style>
+  <text x="75" y="155" font-size="65"><tspan class="purple">AI</tspan><tspan> 投资回报率</tspan></text>
+  <text x="505" y="155" font-size="58">＝</text>
+  <text x="700" y="92" font-size="48"><tspan class="purple">AI 创造的财务价值</tspan><tspan> − AI 成本</tspan></text>
+  <line x1="620" y1="125" x2="1520" y2="125" stroke="#262326" stroke-width="2"/>
+  <text x="985" y="205" font-size="48">AI 成本</text>
+</svg>
