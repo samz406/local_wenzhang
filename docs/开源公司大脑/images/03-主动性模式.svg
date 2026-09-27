@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">主动性模式是一组可执行阈值</title><desc id="desc">监听者、调查者、平衡、队友和自定义五种模式的回复、调查及表情回应阈值。</desc>
+  <rect width="1400" height="800" fill="#181818"/><style>text{font-family:'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#eee}.h{font-size:40px;font-weight:700}.body{font-size:26px}.th{font-size:23px;font-weight:700}.td{font-size:22px}.grid{stroke:#444;stroke-width:2}.mode{fill:#f27b67}</style>
+  <text x="35" y="70" class="h">6. 主动性模式是一组阈值包</text><text x="35" y="140" class="body">模式不只是系统提示词里的一条性格指令，而是一组可强制执行的阈值和功能开关。</text>
+  <g class="grid" fill="none"><rect x="35" y="190" width="1330" height="535"/><line x1="35" y1="260" x2="1365" y2="260"/><line x1="35" y1="353" x2="1365" y2="353"/><line x1="35" y1="446" x2="1365" y2="446"/><line x1="35" y1="539" x2="1365" y2="539"/><line x1="35" y1="632" x2="1365" y2="632"/><line x1="245" y1="190" x2="245" y2="725"/><line x1="485" y1="190" x2="485" y2="725"/><line x1="715" y1="190" x2="715" y2="725"/><line x1="935" y1="190" x2="935" y2="725"/></g>
+  <g class="th"><text x="55" y="235">模式</text><text x="270" y="235">回复</text><text x="510" y="235">调查</text><text x="740" y="235">表情回应</text><text x="960" y="235">预期行为</text></g>
+  <g class="td"><text x="55" y="312" class="mode">监听者</text><text x="270" y="312">仅显式请求</text><text x="510" y="312">仅显式请求</text><text x="740" y="312">禁用</text><text x="960" y="312">除非被询问，否则保持沉默</text>
+  <text x="55" y="405" class="mode">调查者</text><text x="270" y="405">90</text><text x="510" y="405">82</text><text x="740" y="405">禁用</text><text x="960" y="390">只在高价值场景中介入</text>
+  <text x="55" y="498" class="mode">平衡</text><text x="270" y="498">72</text><text x="510" y="498">70</text><text x="740" y="498">78</text><text x="960" y="483">有选择地回答、检查和确认</text>
+  <text x="55" y="591" class="mode">队友</text><text x="270" y="591">55</text><text x="510" y="591">58</text><text x="740" y="591">60</text><text x="960" y="576">更经常参与，但不主导对话</text>
+  <text x="55" y="684" class="mode">自定义</text><text x="270" y="684">已配置</text><text x="510" y="684">已配置</text><text x="740" y="684">已配置</text><text x="960" y="684">组织自定义策略</text></g>
+</svg>

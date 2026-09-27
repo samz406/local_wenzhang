@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">按频道配置主动性</title><desc id="desc">Company Brain 设置页允许选择所有频道或仅专属频道，并增加频道例外。</desc>
+  <rect width="1600" height="620" fill="#171720"/><style>text{font-family:'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#ddd}.muted{fill:#777}.label{font-size:19px}.head{font-size:28px;font-weight:700}.card{fill:#15151d;stroke:#2b2b38;stroke-width:2}.sel{fill:#171923;stroke:#2469d8;stroke-width:2}</style>
+  <text x="65" y="60" class="muted label">配置</text><g class="label"><text x="85" y="125">集成</text><text x="85" y="185">模型</text><text x="85" y="245">工作区提示词</text><rect x="48" y="275" width="285" height="55" rx="10" fill="#30303c"/><text x="85" y="310">主动性</text><text x="85" y="370">自动化</text><text x="85" y="430">技能</text></g>
+  <text x="380" y="65" class="head">主动性</text><text x="380" y="103" class="muted label">Company Brain 在无人询问时是否主动加入 Slack 对话。安静频道仍会被读取并记忆。</text>
+  <rect x="380" y="145" width="525" height="140" rx="14" class="sel"/><text x="410" y="195" class="head">所有频道</text><text x="555" y="195" class="muted label">默认</text><text x="410" y="235" class="muted label">加入所在频道的任何对话，在能够提供帮助时发言。</text><text x="860" y="195" font-size="28" fill="#48a3ff">✓</text>
+  <rect x="930" y="145" width="525" height="140" rx="14" class="card"/><text x="960" y="195" class="head">仅专属频道</text><text x="960" y="235" class="muted label">只在 #company-brain 中发言，除非被 @提及或收到私信。</text>
+  <text x="380" y="330" class="muted label">频道例外</text><rect x="380" y="350" width="1075" height="66" rx="10" class="card"/><text x="408" y="392" class="label">＋ 添加频道例外</text>
+  <rect x="380" y="430" width="1075" height="55" rx="10" class="card"/><text x="410" y="466" class="muted label">搜索频道……</text><rect x="390" y="494" width="1040" height="42" rx="8" fill="#363640"/><text x="410" y="523" class="label"># engineering</text><text x="410" y="572" class="label"># requests</text>
+</svg>

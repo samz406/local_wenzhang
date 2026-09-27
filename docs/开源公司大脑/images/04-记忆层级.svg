@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Company Brain 记忆层级</title><desc id="desc">员工记忆可以读取私有频道记忆与公共频道记忆，私有频道记忆还能读取公共频道记忆。</desc>
+  <rect width="1600" height="420" fill="#11171d"/><style>text{font-family:'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#eee}.box{fill:#20252a;stroke:#aaa;stroke-width:2}.t{font-size:29px}.tag{font-size:24px}</style>
+  <rect x="110" y="140" width="320" height="135" class="box"/><rect x="585" y="70" width="390" height="135" class="box"/><rect x="1130" y="140" width="350" height="135" class="box"/>
+  <g text-anchor="middle"><text x="270" y="195" class="t">员工记忆</text><text x="270" y="235" class="t">（你本人、私信）</text><text x="780" y="125" class="t">私有频道记忆</text><text x="780" y="165" class="t">（该频道成员）</text><text x="1305" y="195" class="t">公共频道记忆</text><text x="1305" y="235" class="t">（整个组织）</text></g>
+  <g stroke="#bbb" stroke-width="3" fill="none" stroke-dasharray="5 5"><path d="M430 175 L585 135"/><path d="M975 135 L1130 175"/><path d="M430 240 C700 340 930 340 1130 240"/></g>
+  <g fill="#bbb"><polygon points="585,135 568,130 573,146"/><polygon points="1130,175 1113,164 1110,181"/><polygon points="1130,240 1113,230 1112,247"/></g>
+  <g><rect x="480" y="135" width="75" height="42" fill="#5b5b5b"/><text x="518" y="164" class="tag" text-anchor="middle">读取</text><rect x="1020" y="135" width="75" height="42" fill="#5b5b5b"/><text x="1058" y="164" class="tag" text-anchor="middle">读取</text><rect x="760" y="295" width="75" height="42" fill="#5b5b5b"/><text x="798" y="324" class="tag" text-anchor="middle">读取</text></g>
+</svg>
