@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+  <rect width="1100" height="700" fill="#faf9f5"/>
+  <rect x="208" y="555" width="684" height="54" fill="#d7ecf2" opacity=".8"/>
+  <rect x="321" y="555" width="458" height="54" fill="#9fc9d5" opacity=".85"/>
+  <path d="M85 554C220 553 259 535 318 445 397 324 431 126 551 126 670 126 706 324 784 445 843 535 881 553 1015 554" fill="none" stroke="#272727" stroke-width="5"/>
+  <g stroke="#272727" stroke-width="3" fill="#efc59b">
+    <circle cx="196" cy="450" r="43"/><path d="M151 510q46-50 92 0v74h-92z" fill="#79a6be"/>
+    <circle cx="550" cy="223" r="47"/><path d="M499 291q52-55 104 0v79H499z" fill="#9179a9"/>
+    <circle cx="904" cy="450" r="43"/><path d="M859 510q46-50 92 0v74h-92z" fill="#79a6be"/>
+  </g>
+  <g fill="none" stroke="#292929" stroke-width="3" stroke-linecap="round">
+    <path d="M174 445l12 8 13-8M194 445l12 8 13-8M527 219l12 8 13-8M549 219l12 8 13-8M571 219l12 8 13-8M882 445l12 8 13-8M902 445l12 8 13-8"/>
+  </g>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#222" text-anchor="middle">
+    <text x="196" y="372" font-size="23" font-weight="700">聊天线程挺好</text>
+    <text x="550" y="49" font-size="24" font-weight="700">你需要一套新的规划界面</text><text x="550" y="83" font-size="24" font-weight="700">才能真正思考</text>
+    <text x="904" y="372" font-size="23" font-weight="700">聊天线程挺好</text>
+    <text x="113" y="640" font-size="16">0.1%</text><text x="240" y="640" font-size="16">2%</text><text x="364" y="640" font-size="16">14%</text><text x="490" y="640" font-size="16">34%</text><text x="614" y="640" font-size="16">34%</text><text x="740" y="640" font-size="16">14%</text><text x="865" y="640" font-size="16">2%</text><text x="990" y="640" font-size="16">0.1%</text>
+    <text x="265" y="588" font-size="17" font-weight="700">95%</text><text x="550" y="588" font-size="17" font-weight="700">68%</text><text x="835" y="588" font-size="17" font-weight="700">95%</text>
+    <text x="146" y="678" font-size="15">55</text><text x="298" y="678" font-size="15">70</text><text x="424" y="678" font-size="15">85</text><text x="550" y="678" font-size="15">100</text><text x="676" y="678" font-size="15">115</text><text x="802" y="678" font-size="15">130</text><text x="954" y="678" font-size="15">145</text>
+  </g>
+</svg>

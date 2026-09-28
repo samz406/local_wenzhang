@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780">
+  <rect width="1100" height="780" fill="#faf8f2"/>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#202020">
+    <text x="70" y="67" font-size="30" font-weight="700">旧工作流（人类）</text>
+    <text x="70" y="111" font-size="22" fill="#686868">线性</text>
+    <g font-size="24" font-weight="700" text-anchor="middle">
+      <rect x="70" y="166" width="225" height="88" rx="18" fill="#fff" stroke="#242424" stroke-width="3"/><text x="182" y="219">规划</text>
+      <rect x="352" y="166" width="225" height="88" rx="18" fill="#fff" stroke="#242424" stroke-width="3"/><text x="464" y="219">批准</text>
+      <rect x="634" y="166" width="225" height="88" rx="18" fill="#fff" stroke="#242424" stroke-width="3"/><text x="746" y="219">执行</text>
+    </g>
+    <path d="M295 210h57M577 210h57" stroke="#333" stroke-width="5"/><path d="M340 197l18 13-18 13zM622 197l18 13-18 13z" fill="#333"/>
+    <path d="M905 141v140M925 141v140" stroke="#d1534f" stroke-width="7"/>
+    <circle cx="996" cy="179" r="31" fill="#f0c797" stroke="#222" stroke-width="3"/><path d="M964 237q35-41 72 0v75h-72z" fill="#6f8fae" stroke="#222" stroke-width="3"/>
+    <text x="996" y="361" text-anchor="middle" font-size="20">现在该怎么办？</text>
+
+    <text x="70" y="430" font-size="30" font-weight="700">新工作流（智能体）</text>
+    <text x="70" y="474" font-size="22" fill="#686868">迭代</text>
+    <circle cx="665" cy="606" r="106" fill="#fff4b8" stroke="#242424" stroke-width="4"/>
+    <text x="665" y="596" text-anchor="middle" font-size="24" font-weight="700">持续理解</text><text x="665" y="630" text-anchor="middle" font-size="24" font-weight="700">持续行动</text>
+    <g font-size="20" font-weight="700" text-anchor="middle">
+      <text x="665" y="485">理解</text><text x="824" y="540">行动</text><text x="848" y="676">检查</text><text x="665" y="754">澄清</text><text x="493" y="682">调整</text><text x="493" y="539">再次行动</text>
+    </g>
+    <path d="M668 509C795 504 829 561 829 610 829 700 747 727 670 727 560 727 511 687 511 609 511 531 576 503 668 509z" fill="none" stroke="#377a8c" stroke-width="7" stroke-dasharray="32 14"/>
+    <path d="M810 562l24 11-22 15zM779 704l23-8-6 24zM524 664l-23-10 21-16zM536 540l-20 13 1-25z" fill="#377a8c"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+  <rect width="1200" height="850" fill="#f9f7f0"/>
+  <rect y="0" width="1200" height="280" fill="#dcecf4"/>
+  <rect y="280" width="1200" height="570" fill="#a9d3dd"/>
+  <path d="M0 280q60-18 120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0" fill="none" stroke="#245563" stroke-width="5"/>
+  <g stroke="#252525" stroke-width="4" stroke-linejoin="round">
+    <path d="M415 222h370l-58 93H476z" fill="#c98f4c"/>
+    <path d="M533 222l52-69h148l52 69" fill="#fffdf6"/>
+    <circle cx="618" cy="136" r="30" fill="#f1c99c"/><path d="M594 116q29-34 56 1" fill="#252525"/>
+    <path d="M604 166l-24 56h112l-35-56" fill="#5d7fa2"/>
+    <path d="M711 182l73 28" fill="none"/><path d="M784 210l36 82" fill="none"/>
+    <path d="M816 287l-28 23 30 17" fill="none"/>
+  </g>
+  <text x="600" y="275" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#222">聊天</text>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#1e3340" font-size="22" font-weight="700">
+    <text x="88" y="397">假设</text><text x="895" y="382">预期行为</text><text x="87" y="634">API 边界</text><text x="911" y="618">产品决策</text>
+  </g>
+  <g stroke="#25333a" stroke-width="3" fill="#fffdf8" stroke-linejoin="round" font-family="Noto Sans CJK SC, sans-serif">
+    <path d="M185 353h205v128H185z"/><path d="M185 353h205v31H185z" fill="#e8e0d4"/><text x="201" y="376" font-size="17">auth.ts</text><text x="201" y="418" font-size="16">验证 → 会话</text><text x="201" y="450" font-size="16">权限？</text>
+    <path d="M760 339h218v130H760z"/><path d="M760 339h218v31H760z" fill="#e8e0d4"/><text x="776" y="363" font-size="17">component.jsx</text><text x="776" y="408" font-size="16">界面状态</text><text x="776" y="440" font-size="16">错误分支</text>
+    <path d="M87 500h220v125H87z"/><path d="M87 500h220v31H87z" fill="#e8e0d4"/><text x="103" y="524" font-size="17">api.ts</text><text x="103" y="569" font-size="16">请求 → 响应</text><text x="103" y="600" font-size="16">重试策略</text>
+    <path d="M449 439h235v138H449z"/><path d="M449 439h235v31H449z" fill="#e8e0d4"/><text x="465" y="463" font-size="17">billing.py</text><text x="465" y="507" font-size="16">计费规则</text><text x="465" y="541" font-size="16">隐含默认值</text>
+    <path d="M828 493h234v137H828z"/><path d="M828 493h234v31H828z" fill="#e8e0d4"/><text x="844" y="517" font-size="17">schema.sql</text><text x="844" y="561" font-size="16">表与字段</text><text x="844" y="595" font-size="16">迁移路径</text>
+    <path d="M224 654h221v126H224z"/><path d="M224 654h221v31H224z" fill="#e8e0d4"/><text x="240" y="678" font-size="17">infra.yaml</text><text x="240" y="722" font-size="16">网络、权限</text><text x="240" y="752" font-size="16">部署条件</text>
+  </g>
+  <g stroke="#624821" stroke-width="4" stroke-linejoin="round">
+    <path d="M732 653h284v133H732z" fill="#a87533"/><path d="M732 653q142-95 284 0" fill="#c89445"/><path d="M859 654h30v132h-30z" fill="#e9bf5a"/>
+  </g>
+  <text x="874" y="728" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="700" fill="#282015">隐藏依赖</text>
+  <g stroke="#5a7f8a" stroke-width="3" stroke-dasharray="9 8" fill="none"><path d="M390 424l59 64"/><path d="M684 507l144 51"/><path d="M307 575l142-58"/><path d="M684 552l84 101"/></g>
+</svg>

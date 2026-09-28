@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#f9f7f1"/>
+  <path d="M0 326 C180 302 305 337 470 316 S765 303 960 324" fill="none" stroke="#272727" stroke-width="4"/>
+  <g fill="none" stroke="#272727" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="312" r="43"/><circle cx="311" cy="312" r="43"/>
+    <path d="M109 292h247l-18-107H158zM169 184l22-65h113l20 65M203 119l-24-42M293 119l35-45"/>
+    <path d="M356 263c53-14 77-37 101-75 23-36 62-46 96-27-17 16-22 40-12 69-24 35-61 55-112 61z"/>
+    <path d="M415 279l53 33M523 213l48 20M531 173l56-26"/>
+    <path d="M563 201c39-58 118-86 215-66l-51 45 89 31-104 18 35 56c-98 7-165-22-196-74z" fill="#de5d54"/>
+    <path d="M740 140l46-46M775 149l78-17M786 176l67 25"/>
+  </g>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#202020" text-anchor="middle">
+    <text x="249" y="231" font-size="29" font-weight="700">界面</text>
+    <text x="675" y="188" font-size="24" font-weight="700">模型速度</text>
+    <text x="675" y="221" font-size="24" font-weight="700">代码生成</text>
+  </g>
+</svg>

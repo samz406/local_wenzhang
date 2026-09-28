@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <rect width="800" height="1200" fill="#f8f5ed"/>
+  <path d="M118 0h465c-22 87 48 120 16 206-26 70 47 112 3 190-36 63 44 115-2 190-39 63 38 121-8 192-39 60 21 121-24 190-45 68-5 151-80 232H118z" fill="#87cad7" opacity=".72"/>
+  <path d="M583 0c-22 87 48 120 16 206-26 70 47 112 3 190-36 63 44 115-2 190-39 63 38 121-8 192-39 60 21 121-24 190-45 68-5 151-80 232" fill="none" stroke="#236071" stroke-width="5"/>
+  <g font-family="Noto Sans CJK SC, sans-serif" font-weight="700" font-size="25" text-anchor="middle" fill="#20282b">
+    <g><rect x="170" y="38" width="354" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="347" y="86">聊天</text></g>
+    <g><rect x="198" y="172" width="430" height="82" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="413" y="207">通过回答问题</text><text x="413" y="237">消除歧义</text></g>
+    <g><rect x="144" y="316" width="405" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="347" y="364">生成规格文档</text></g>
+    <g><rect x="215" y="462" width="385" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="408" y="510">审阅规格</text></g>
+    <g><rect x="135" y="603" width="407" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="339" y="651">修改规格</text></g>
+    <g><rect x="208" y="744" width="348" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="382" y="792">批准</text></g>
+    <g><rect x="120" y="881" width="360" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="300" y="929">实现</text></g>
+    <g><rect x="195" y="1024" width="390" height="76" rx="16" fill="#fffdf8" stroke="#222" stroke-width="3"/><text x="390" y="1072">审查代码</text></g>
+  </g>
+  <g fill="none" stroke="#236071" stroke-width="5"><path d="M350 114v58"/><path d="M414 254v62"/><path d="M347 392v70"/><path d="M408 538v65"/><path d="M339 679v65"/><path d="M382 820v61"/><path d="M300 957v67"/></g>
+  <g fill="#236071"><path d="M338 160l12 20 12-20z"/><path d="M402 304l12 20 12-20z"/><path d="M335 450l12 20 12-20z"/><path d="M396 591l12 20 12-20z"/><path d="M327 732l12 20 12-20z"/><path d="M370 869l12 20 12-20z"/><path d="M288 1012l12 20 12-20z"/></g>
+  <g stroke="#222" stroke-width="4" fill="#f1c89d" stroke-linecap="round"><circle cx="657" cy="339" r="31"/><path d="M635 326q20-44 47 0" fill="#31343a"/><path d="M642 374l-28 76 84 23 5-79z" fill="#d96e59"/><path d="M634 397l-45 35M691 407l43 47M641 452l-30 58M682 465l17 57" fill="none"/></g>
+</svg>

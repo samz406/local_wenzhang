@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+  <rect width="1200" height="850" fill="#fbfaf6"/>
+  <g stroke="#222" stroke-width="3" fill="#fffdf7" stroke-linejoin="round">
+    <path d="M48 89h230v162H48z"/><path d="M48 89h230v35H48z" fill="#e6e0d4"/>
+    <path d="M920 70h230v152H920z"/><path d="M920 70h230v35H920z" fill="#e6e0d4"/>
+    <path d="M850 265h300v175H850z"/><path d="M850 265h300v34H850z" fill="#e6e0d4"/>
+    <path d="M70 311h263v168H70z"/><path d="M70 311h263v34H70z" fill="#e6e0d4"/>
+    <path d="M52 585h305v190H52z"/><path d="M52 585h305v36H52z" fill="#e6e0d4"/>
+    <path d="M844 535h310v198H844z"/><path d="M844 535h310v36H844z" fill="#e6e0d4"/>
+    <path d="M462 42h278v121H462z" fill="#fff6b8"/>
+    <path d="M403 656h394v142H403z" fill="#f3f0e8"/>
+  </g>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#252525">
+    <text x="65" y="113" font-size="17" font-weight="700">智能体运行</text>
+    <text x="65" y="146" font-size="17">✓ 制定计划</text><text x="65" y="171" font-size="17">✓ 搜索、读取文件</text>
+    <text x="65" y="196" font-size="17">✓ 编辑 12 个文件</text><text x="65" y="221" font-size="17">✓ 运行测试　? 部署</text>
+    <text x="936" y="95" font-size="17" font-weight="700">auth.ts</text><text x="936" y="132" font-size="15">导出异步函数 login()</text><text x="936" y="160" font-size="15">验证用户并返回会话</text>
+    <text x="866" y="289" font-size="17" font-weight="700">schema.sql</text><text x="866" y="329" font-size="15">创建用户表（</text><text x="866" y="354" font-size="15">　id、邮箱、套餐……</text><text x="866" y="379" font-size="15">）</text>
+    <text x="866" y="418" font-size="16" font-weight="700">决定依据？</text>
+    <text x="86" y="336" font-size="17" font-weight="700">差异</text><text x="86" y="377" font-size="15" fill="#a83939">− 旧代码</text><text x="86" y="406" font-size="15" fill="#287c52">+ 新代码</text><text x="86" y="446" font-size="15">final_final_v2</text>
+    <text x="69" y="611" font-size="17" font-weight="700">项目文件</text><text x="69" y="651" font-size="16">src/　agents/　utils/</text><text x="69" y="680" font-size="16">workflows/　temp/　???</text><text x="69" y="719" font-size="16">requirements.txt</text><text x="69" y="748" font-size="16">tasks.md　README.md</text>
+    <text x="860" y="561" font-size="17" font-weight="700">智能体决策日志</text><text x="860" y="604" font-size="16">提交 a3f9c2</text><text x="860" y="634" font-size="16">由智能体更新逻辑</text><text x="860" y="684" font-size="16">config/settings.yml</text><text x="860" y="711" font-size="16">prompts.md　tools.py</text>
+    <text x="480" y="74" font-size="18" font-weight="700">billing.py</text><text x="480" y="108" font-size="16">如果 process……</text><text x="480" y="137" font-size="16">worker.go　运行()</text>
+    <text x="425" y="686" font-size="18" font-weight="700">为什么这样做？　它如何决定？</text><text x="425" y="724" font-size="18" font-weight="700">依据了什么假设？　谁改了这里？</text><text x="425" y="765" font-size="16">一切都生成了，可我真的理解了吗？</text>
+  </g>
+  <g stroke="#222" stroke-width="4" fill="#f2cfad" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="602" cy="360" r="74"/>
+    <path d="M534 335c14-79 126-95 150 2-27-19-49-34-83-33-31 1-50 13-67 31z" fill="#2e3138"/>
+    <path d="M513 444c44-59 134-64 181 0l35 169H474z" fill="#567f9f"/>
+    <path d="M527 480l-92-61M677 480l91-64"/>
+    <path d="M546 368q55 35 111 0" fill="none"/>
+    <path d="M562 345l18 12M642 357l18-12" fill="none"/>
+  </g>
+  <g stroke="#357bb8" stroke-width="3" fill="none">
+    <path d="M390 205q-56 29-86 83"/><path d="M807 169q72 24 95 77"/><path d="M391 569q-63-13-92-57"/><path d="M808 481q60 2 94 43"/>
+  </g>
+</svg>

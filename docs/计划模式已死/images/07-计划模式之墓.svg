@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="404" viewBox="0 0 1120 404">
+  <rect width="1120" height="404" fill="#f8f5ed"/>
+  <path d="M0 347q180-24 360 0t360 0t400 0v57H0z" fill="#c9d6ba"/>
+  <g stroke="#252525" stroke-width="4" stroke-linejoin="round">
+    <path d="M430 333V158q0-100 130-100t130 100v175z" fill="#c7c5bd"/>
+    <path d="M458 333V169q0-77 102-77t102 77v164z" fill="#e6e2d8"/>
+  </g>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#292929" text-anchor="middle">
+    <text x="560" y="177" font-size="31" font-weight="700">计划模式</text><text x="560" y="221" font-size="25">2025—2026</text><text x="560" y="271" font-size="17">它把规划写成了一份文档</text><text x="560" y="299" font-size="17">却让过程失去了连贯</text>
+  </g>
+  <g stroke="#252525" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="181" cy="178" r="39" fill="#efc79c"/><path d="M139 233q43-47 86 0v100h-86z" fill="#6489a8"/><path d="M143 257l-52 55M221 257l51 58" fill="none"/>
+    <circle cx="319" cy="205" r="34" fill="#efc79c"/><path d="M282 250q38-42 76 0v83h-76z" fill="#b6796c"/><path d="M287 269l-40 55M353 269l42 55" fill="none"/>
+    <rect x="823" y="174" width="91" height="78" rx="18" fill="#adc9ce"/><circle cx="847" cy="207" r="7" fill="#fff"/><circle cx="890" cy="207" r="7" fill="#fff"/><path d="M852 232h33M869 174v-29M869 145l17-20" fill="none"/><path d="M837 252v81M900 252v81M823 274l-54 34M914 274l54 34" fill="none"/>
+    <circle cx="1012" cy="243" r="60" fill="#d6e2bf"/><circle cx="1012" cy="243" r="34" fill="#f8f5ed"/>
+  </g>
+  <text x="1012" y="239" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="700" fill="#2d402d">计划</text><text x="1012" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="700" fill="#2d402d">模式</text>
+  <g fill="#e8b9c3" stroke="#6b5440" stroke-width="2"><circle cx="377" cy="333" r="17"/><circle cx="402" cy="338" r="14"/><circle cx="720" cy="334" r="17"/><circle cx="745" cy="340" r="14"/></g>
+</svg>
