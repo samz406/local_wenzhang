@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#faf8f1"/><stop offset="1" stop-color="#e9e4d8"/></linearGradient>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M0 0v10" stroke="#555" stroke-width="1" opacity=".22"/></pattern>
+  </defs>
+  <rect width="1200" height="480" fill="url(#paper)"/>
+  <g fill="none" stroke="#444" stroke-width="2" opacity=".52">
+    <path d="M0 300Q120 215 252 283T493 269T724 282T957 258T1200 286"/>
+    <path d="M0 332Q154 263 296 318T560 304T841 318T1200 301"/>
+    <path d="M0 365Q190 327 364 359T720 346T1200 363"/>
+  </g>
+  <g fill="#777" opacity=".3">
+    <path d="M0 355l0-111 14 55 13-102 12 98 18-146 18 151 13-79 14 93 19-125 14 133 16-67 18 109z"/>
+    <path d="M1015 356l14-91 18 80 17-142 18 147 14-77 18 73 20-124 17 128 18-91 18 97z"/>
+  </g>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#1f1f1f" text-anchor="middle">
+    <text x="600" y="64" font-size="25" font-weight="500">构建</text>
+    <text x="600" y="112" font-size="43" font-weight="800">智能体知识系统</text>
+  </g>
+  <g stroke="#252525" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M467 406q27-113 81-146 43-26 114-12 69 14 93 106l-15 68H487z" fill="url(#hatch)" stroke-width="3"/>
+    <circle cx="618" cy="221" r="37" fill="#d8d2c4" stroke-width="3"/>
+    <path d="M586 215q22-72 70-18l-10 20-54 8z" fill="#3c3c3c" stroke-width="3"/>
+    <path d="M586 231q31 35 66 0-3 44-32 45-29-3-34-45z" fill="#dfd7c7" stroke-width="3"/>
+    <path d="M584 279l-57 61 71 36 43-90z" fill="#b9b2a5" stroke-width="3"/>
+    <path d="M649 281l45 35-29 61-72-4z" fill="#88857e" stroke-width="3"/>
+    <path d="M543 339l58 38M683 336l-40 43" fill="none" stroke-width="4"/>
+    <path d="M583 321h111l-17 73H600z" fill="#d8d5cb" stroke-width="4"/>
+    <path d="M548 417h-133v-55h133zM797 418h-122v-47h122z" fill="#d5d0c5" stroke-width="3"/>
+    <path d="M426 362h111M688 371h96M427 380h111M688 389h96M427 399h111M688 406h96" fill="none" stroke-width="2"/>
+    <circle cx="825" cy="311" r="31" fill="#dad5ca" stroke-width="3"/><path d="M825 280v62M795 311h61M805 289q41 26 0 47M845 289q-40 26 0 47" fill="none" stroke-width="2"/>
+    <path d="M834 342l-10 76M807 418h37" fill="none" stroke-width="4"/>
+  </g>
+  <g stroke="#393939" stroke-width="2" opacity=".68">
+    <path d="M0 427q122-31 225 3t209-3 217 4 218-5 331 5" fill="none"/>
+    <path d="M109 141q21 11 36 38-24-13-46-4 13-18 10-34z" fill="#555"/><path d="M92 151q-44 18-69 5 32-9 51-35" fill="none"/>
+  </g>
+  <text x="600" y="463" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#454545">让知识、方法、工作与界面在同一环境中共同演化</text>
+</svg>
