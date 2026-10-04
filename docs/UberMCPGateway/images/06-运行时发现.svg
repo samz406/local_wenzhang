@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs><marker id="a6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6Z" fill="#555"/></marker></defs><rect width="1200" height="700" fill="#fff"/><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{font-size:24px;font-weight:700}.t{font-size:17px}.s{font-size:14px;fill:#555}.box{fill:#fafafa;stroke:#333;stroke-width:2}.hi{fill:#eee4ff;stroke:#7240b5;stroke-width:3}.line{stroke:#555;stroke-width:3;fill:none;marker-end:url(#a6)}</style>
+  <text x="600" y="48" text-anchor="middle" class="h">运行时渐进发现与代码模式</text>
+  <rect x="60" y="110" width="230" height="100" rx="14" class="box"/><text x="175" y="150" text-anchor="middle" class="h">MCP 客户端</text><text x="175" y="182" text-anchor="middle" class="s">只需配置一个入口</text>
+  <rect x="385" y="90" width="420" height="310" rx="22" class="hi"/><text x="595" y="133" text-anchor="middle" class="h">Omni MCP</text>
+  <g class="box"><rect x="435" y="160" width="320" height="45" rx="7"/><rect x="435" y="220" width="320" height="45" rx="7"/><rect x="435" y="280" width="320" height="45" rx="7"/><rect x="435" y="340" width="320" height="45" rx="7"/></g><g class="t"><text x="455" y="189">1. discover_server　按意图找服务器</text><text x="455" y="249">2. discover_tools　查找可用工具</text><text x="455" y="309">3. get_tool_schema　获取工具模式</text><text x="455" y="369">4. invoke_tool　调用工具</text></g>
+  <rect x="910" y="110" width="230" height="100" rx="14" class="box"/><text x="1025" y="150" text-anchor="middle" class="h">MCP Gateway</text><text x="1025" y="182" text-anchor="middle" class="s">800+ 服务器 · 5000+ 工具</text>
+  <path d="M290 160H385" class="line"/><path d="M805 160H910" class="line"/>
+  <rect x="60" y="475" width="230" height="100" rx="14" class="box"/><text x="175" y="515" text-anchor="middle" class="h">编码智能体</text><text x="175" y="547" text-anchor="middle" class="s">Shell / 文件系统环境</text>
+  <rect x="385" y="445" width="420" height="160" rx="22" fill="#e7f0ff" stroke="#3f69aa" stroke-width="3"/><text x="595" y="485" text-anchor="middle" class="h">代码模式：aifx CLI</text><text x="445" y="525" class="t">aifx mcp list　　列出服务器</text><text x="445" y="555" class="t">aifx mcp search　搜索工具</text><text x="445" y="585" class="t">aifx mcp call　　调用工具并写入文件</text>
+  <rect x="910" y="475" width="230" height="100" rx="14" class="box"/><text x="1025" y="515" text-anchor="middle" class="h">选择性载入</text><text x="1025" y="547" text-anchor="middle" class="s">grep 所需片段，节省上下文</text>
+  <path d="M290 525H385" class="line"/><path d="M805 525H910" class="line"/>
+  <text x="600" y="660" text-anchor="middle" class="t" font-weight="700">不预先塞入全部工具定义；需要什么，就在运行时发现什么</text>
+</svg>

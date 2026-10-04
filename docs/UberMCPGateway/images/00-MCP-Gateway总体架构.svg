@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#24102d"/><stop offset="1" stop-color="#06070a"/></linearGradient><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6Z" fill="#b78cff"/></marker></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="62" y="65" fill="#fff" font-size="38" font-weight="700" font-family="Arial,'Noto Sans SC',sans-serif">MCP Gateway</text>
+  <text x="62" y="100" fill="#cbb8d8" font-size="20" font-family="Arial,'Noto Sans SC',sans-serif">让 AI 智能体安全、统一地访问 Uber 的全部服务</text>
+  <rect x="65" y="150" width="200" height="330" rx="18" fill="#18131f" stroke="#8549c9" stroke-width="2"/>
+  <text x="165" y="195" text-anchor="middle" fill="#fff" font-size="24" font-weight="700" font-family="Arial,'Noto Sans SC',sans-serif">AI 客户端</text>
+  <g fill="#30233b" stroke="#9d65d8"><rect x="95" y="230" width="140" height="56" rx="12"/><rect x="95" y="310" width="140" height="56" rx="12"/><rect x="95" y="390" width="140" height="56" rx="12"/></g>
+  <g fill="#fff" font-size="18" text-anchor="middle" font-family="Arial,'Noto Sans SC',sans-serif"><text x="165" y="265">编码智能体</text><text x="165" y="345">数据智能体</text><text x="165" y="425">运维智能体</text></g>
+  <path d="M265 315H400" stroke="#b78cff" stroke-width="5" marker-end="url(#a)"/>
+  <rect x="420" y="135" width="360" height="360" rx="26" fill="#251730" stroke="#c494ff" stroke-width="3"/>
+  <text x="600" y="184" text-anchor="middle" fill="#fff" font-size="28" font-weight="700" font-family="Arial,'Noto Sans SC',sans-serif">MCP GATEWAY</text>
+  <rect x="465" y="215" width="270" height="94" rx="14" fill="#66349b"/>
+  <text x="600" y="253" text-anchor="middle" fill="#fff" font-size="22" font-weight="700" font-family="Arial,'Noto Sans SC',sans-serif">控制平面</text><text x="600" y="283" text-anchor="middle" fill="#eadcf6" font-size="17" font-family="Arial,'Noto Sans SC',sans-serif">Registry · AutoCrawler · 创作</text>
+  <rect x="465" y="335" width="270" height="112" rx="14" fill="#1b1d2b" stroke="#9f74cc"/>
+  <text x="600" y="375" text-anchor="middle" fill="#fff" font-size="22" font-weight="700" font-family="Arial,'Noto Sans SC',sans-serif">数据平面</text><text x="600" y="406" text-anchor="middle" fill="#d7d5e6" font-size="17" font-family="Arial,'Noto Sans SC',sans-serif">代理 · 路由 · 协议转换</text><text x="600" y="432" text-anchor="middle" fill="#d7d5e6" font-size="17" font-family="Arial,'Noto Sans SC',sans-serif">授权 · 脱敏 · 可观测性</text>
+  <path d="M780 315H915" stroke="#b78cff" stroke-width="5" marker-end="url(#a)"/>
+  <rect x="935" y="150" width="200" height="330" rx="18" fill="#18131f" stroke="#8549c9" stroke-width="2"/>
+  <text x="1035" y="195" text-anchor="middle" fill="#fff" font-size="24" font-weight="700" font-family="Arial,'Noto Sans SC',sans-serif">后端服务</text>
+  <g fill="#30233b" stroke="#9d65d8"><rect x="965" y="230" width="140" height="56" rx="12"/><rect x="965" y="310" width="140" height="56" rx="12"/><rect x="965" y="390" width="140" height="56" rx="12"/></g>
+  <g fill="#fff" font-size="18" text-anchor="middle" font-family="Arial,'Noto Sans SC',sans-serif"><text x="1035" y="265">HTTP</text><text x="1035" y="345">gRPC / TChannel</text><text x="1035" y="425">原生 MCP</text></g>
+  <g font-family="Arial,'Noto Sans SC',sans-serif"><rect x="75" y="550" width="190" height="58" rx="29" fill="#6726d2"/><rect x="288" y="550" width="190" height="58" rx="29" fill="#5b239e"/><rect x="501" y="550" width="190" height="58" rx="29" fill="#49217f"/><rect x="714" y="550" width="190" height="58" rx="29" fill="#382064"/><rect x="927" y="550" width="190" height="58" rx="29" fill="#28204c"/><g fill="#fff" text-anchor="middle" font-size="17" font-weight="700"><text x="170" y="586">800+ 服务器</text><text x="383" y="586">5000+ 工具</text><text x="596" y="586">统一治理</text><text x="809" y="586">零下游改造</text><text x="1022" y="586">渐进式发现</text></g></g>
+</svg>
