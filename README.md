@@ -20,6 +20,7 @@
 - [如何为知识工作构建智能体系统](./docs/如何为知识工作构建智能体系统/如何为知识工作构建智能体系统.md)
 - [AI 评测：如何判断一个 AI 系统是否真的有效](./docs/AI评测如何判断系统是否真正有效/AI评测如何判断系统是否真正有效.md)
 - [设计 MCP Gateway：Uber 的 MCP 管理平台](./docs/UberMCPGateway/设计MCP-Gateway-Uber的MCP管理平台.md)
+- [在 Uber 的规模下高效运转软件工厂](./docs/Uber软件工厂/在Uber规模下高效运转软件工厂.md)
 - **AI 工程技能图谱（Andrew Ng）**
   1. [构建与部署 AI 应用](./docs/AI工程技能图谱/01-构建与部署AI应用.md)
   2. [软件工程基础](./docs/AI工程技能图谱/02-软件工程基础.md)

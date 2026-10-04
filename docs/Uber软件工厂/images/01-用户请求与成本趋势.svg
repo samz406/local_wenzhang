@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+ <rect width="1200" height="650" fill="#fff"/><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{font-size:28px;font-weight:700}.t{font-size:17px;fill:#444}.s{font-size:14px;fill:#666}.grid{stroke:#d9dde2;stroke-width:1}.axis{stroke:#737b84;stroke-width:2}</style><text x="600" y="45" class="h" text-anchor="middle">采用率、智能体请求与成本趋势</text>
+ <g class="grid"><path d="M100 120H1100M100 220H1100M100 320H1100M100 420H1100M100 520H1100"/></g><path d="M100 90V520H1100" fill="none" class="axis"/>
+ <polyline points="110,492 250,470 390,430 530,392 670,340 810,260 950,180 1090,110" fill="none" stroke="#1377d4" stroke-width="8"/>
+ <polyline points="110,485 250,460 390,420 530,350 670,290 810,220 950,145 1090,95" fill="none" stroke="#7b3fc6" stroke-width="8"/>
+ <polyline points="110,500 250,470 390,390 530,315 670,330 810,325 950,318 1090,322" fill="none" stroke="#e4822a" stroke-width="8"/>
+ <g class="t"><text x="150" y="570">2 月</text><text x="290" y="570">3 月</text><text x="430" y="570">4 月</text><text x="570" y="570">5 月</text><text x="710" y="570">6 月</text><text x="850" y="570">7 月</text><text x="1000" y="570">8 月中旬</text></g>
+ <g class="t"><rect x="180" y="75" width="24" height="6" fill="#1377d4"/><text x="214" y="84">周活跃用户：7×</text><rect x="430" y="75" width="24" height="6" fill="#7b3fc6"/><text x="464" y="84">智能体请求：9.4×</text><rect x="735" y="75" width="24" height="6" fill="#e4822a"/><text x="769" y="84">AI 总支出：4 月后基本稳定</text></g><text x="600" y="625" class="s" text-anchor="middle">各序列以 2026 年 2 月为基准归一化；跨工具用户已去重</text>
+</svg>

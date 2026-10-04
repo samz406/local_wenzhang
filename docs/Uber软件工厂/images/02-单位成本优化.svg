@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+ <rect width="1200" height="600" fill="#fff"/><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{font-size:28px;font-weight:700}.t{font-size:17px;fill:#333}.s{font-size:14px;fill:#666}.g{stroke:#dfe3e7}.a{stroke:#69727b;stroke-width:2;fill:none}</style><text x="600" y="45" class="h" text-anchor="middle">固定同一模型后的单位成本优化</text>
+ <g class="g"><path d="M100 120H560M100 220H560M100 320H560M100 420H560M650 120H1110M650 220H1110M650 320H1110M650 420H1110"/></g><g class="a"><path d="M100 90V450H560"/><path d="M650 90V450H1110"/></g>
+ <polyline points="110,360 180,300 250,155 320,210 390,245 460,290 540,315" fill="none" stroke="#2b78cf" stroke-width="7"/><circle cx="250" cy="155" r="8" fill="#2b78cf"/><circle cx="540" cy="315" r="8" fill="#2b78cf"/><text x="250" y="135" class="t" text-anchor="middle">峰值</text><text x="430" y="360" class="h" fill="#2b78cf">下降 34%</text>
+ <polyline points="660,260 740,190 820,120 900,245 980,330 1090,360" fill="none" stroke="#7b3fc6" stroke-width="7"/><circle cx="820" cy="120" r="8" fill="#7b3fc6"/><circle cx="1090" cy="360" r="8" fill="#7b3fc6"/><text x="820" y="100" class="t" text-anchor="middle">6 月峰值</text><text x="900" y="400" class="h" fill="#7b3fc6">下降 52%</text>
+ <text x="330" y="500" class="t" text-anchor="middle">每 1000 次模型请求成本</text><text x="880" y="500" class="t" text-anchor="middle">每次会话成本*</text><text x="600" y="555" class="s" text-anchor="middle">2026 年 2 月至 7 月；*每会话成本数据从 5 月底开始</text>
+</svg>
