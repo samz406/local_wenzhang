@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690">
+  <defs><marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6Z" fill="#59616a"/></marker></defs><rect width="1200" height="690" fill="#fff"/><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{font-size:25px;font-weight:700;fill:#111}.t{font-size:17px;fill:#222}.s{font-size:14px;fill:#555}.b{fill:#fafafa;stroke:#3f464d;stroke-width:2}.hi{fill:#f0e6ff;stroke:#7542bd;stroke-width:3}.line{stroke:#59616a;stroke-width:2.5;fill:none;marker-end:url(#a2)}</style>
+  <text x="55" y="55" class="h">发现来源</text><text x="430" y="55" class="h">AutoCrawler 工作流</text><text x="940" y="55" class="h">控制平面</text>
+  <rect x="55" y="95" width="255" height="105" rx="12" class="b"/><text x="182" y="137" class="t" text-anchor="middle">IDL Registry</text><text x="182" y="169" class="s" text-anchor="middle">Protobuf · Thrift</text>
+  <rect x="55" y="240" width="255" height="105" rx="12" class="b"/><text x="182" y="282" class="t" text-anchor="middle">原生 MCP 服务器</text><text x="182" y="314" class="s" text-anchor="middle">心跳 · listTools</text>
+  <rect x="55" y="385" width="255" height="105" rx="12" class="b"/><text x="182" y="427" class="t" text-anchor="middle">内部服务信号</text><text x="182" y="459" class="s" text-anchor="middle">新服务 · API · 模式变更</text>
+  <rect x="415" y="95" width="330" height="395" rx="22" class="hi"/><text x="580" y="140" class="h" text-anchor="middle">Cadence 定时工作流</text>
+  <g class="b"><rect x="465" y="175" width="230" height="55" rx="8"/><rect x="465" y="250" width="230" height="55" rx="8"/><rect x="465" y="325" width="230" height="55" rx="8"/><rect x="465" y="400" width="230" height="55" rx="8"/></g>
+  <g class="t" text-anchor="middle"><text x="580" y="210">1. 发现并更新服务器</text><text x="580" y="285">2. 解析 IDL / 查询工具</text><text x="580" y="360">3. 生成描述与模式</text><text x="580" y="435">4. 默认禁用后注册</text></g>
+  <rect x="880" y="105" width="270" height="100" rx="14" class="b"/><text x="1015" y="145" class="t" text-anchor="middle">MCP Registry</text><text x="1015" y="177" class="s" text-anchor="middle">服务器 · 工具 · 模式 · 版本</text>
+  <rect x="880" y="275" width="270" height="100" rx="14" class="b"/><text x="1015" y="315" class="t" text-anchor="middle">服务所有者审核</text><text x="1015" y="347" class="s" text-anchor="middle">完善 · 批准 · 启用 · 回滚</text>
+  <rect x="880" y="445" width="270" height="100" rx="14" class="b"/><text x="1015" y="485" class="t" text-anchor="middle">Proxy Gateway</text><text x="1015" y="517" class="s" text-anchor="middle">加载已启用配置并执行</text>
+  <g class="line"><path d="M310 147H415"/><path d="M310 292H415"/><path d="M310 437H415"/><path d="M745 200L880 155"/><path d="M1015 205V275"/><path d="M1015 375V445"/></g>
+  <rect x="160" y="595" width="880" height="58" rx="12" fill="#f7f2ff" stroke="#8c66be"/><text x="600" y="632" class="t" text-anchor="middle">核心原则：发现不等于暴露——每个服务器与工具都必须由所属团队明确启用</text>
+</svg>
