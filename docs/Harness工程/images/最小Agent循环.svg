@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="980" viewBox="0 0 920 980" role="img" aria-labelledby="title desc">
+  <title id="title">最小 Agent 循环</title>
+  <desc id="desc">任务进入活跃上下文组装和模型调用；最终结果返回用户，行动请求则经过策略、审批与工具路由，在环境中执行，观察结果更新状态后回到下一次上下文组装。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,3 L0,6 Z" fill="#334155"/></marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#64748b;stroke-width:2;rx:12}.text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;font-size:24px;fill:#0f172a;text-anchor:middle}.small{font-size:19px;fill:#475569}.line{fill:none;stroke:#334155;stroke-width:2.5;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="920" height="980" fill="#fff"/>
+  <g>
+    <rect class="box" x="280" y="45" width="360" height="70"/><text class="text" x="460" y="88">任务</text>
+    <rect class="box" x="280" y="165" width="360" height="70"/><text class="text" x="460" y="208">组装活跃上下文</text>
+    <rect class="box" x="280" y="285" width="360" height="70"/><text class="text" x="460" y="328">调用模型</text>
+    <rect class="box" x="280" y="405" width="360" height="70"/><text class="text" x="460" y="448">最终回答，还是行动请求？</text>
+    <rect class="box" x="280" y="555" width="360" height="70"/><text class="text" x="460" y="598">策略／审批／工具路由</text>
+    <rect class="box" x="280" y="675" width="360" height="70"/><text class="text" x="460" y="718">在环境中执行</text>
+    <rect class="box" x="280" y="795" width="360" height="70"/><text class="text" x="460" y="838">观察结果＋状态更新</text>
+    <path class="line" d="M460 115V165"/><path class="line" d="M460 235V285"/><path class="line" d="M460 355V405"/>
+    <path class="line" d="M460 475V555"/><text class="text small" x="500" y="520">行动</text>
+    <path class="line" d="M460 625V675"/><path class="line" d="M460 745V795"/>
+    <path class="line" d="M640 830H775V200H640"/>
+    <path class="line" d="M280 440H120V80H280"/><text class="text small" x="173" y="422">最终输出</text>
+  </g>
+</svg>

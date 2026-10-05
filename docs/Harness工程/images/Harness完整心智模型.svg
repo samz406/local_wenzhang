@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="900" viewBox="0 0 1120 900" role="img" aria-labelledby="title desc">
+  <title id="title">Harness 工程完整心智模型</title>
+  <desc id="desc">持久会话与任务状态进入 Harness。Harness 负责上下文选择、模型循环、工具路由、策略与审批、验证、重试恢复和预算；模型产生行动，工具、MCP、沙箱、文件、API 与浏览器返回观察结果。整个系统受到权限、凭据、文件系统、网络、Schema 和预算的硬边界约束，并通过测试、界面状态、日志、指标、Trace、结果和评分器获得反馈。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,3 L0,6 Z" fill="#334155"/></marker>
+    <style>.box{fill:#f8fafc;stroke:#64748b;stroke-width:2;rx:12}.accent{fill:#eef2ff;stroke:#4f46e5}.text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;font-size:23px;fill:#0f172a;text-anchor:middle}.label{font-size:18px;fill:#475569}.head{font-size:27px;font-weight:700}.body{font-size:20px}.line{fill:none;stroke:#334155;stroke-width:2.5;marker-end:url(#arrow)}.band{fill:#fef3c7;stroke:#d97706;stroke-width:2;rx:10}.feedback{fill:#dcfce7;stroke:#16a34a;stroke-width:2;rx:10}</style>
+  </defs>
+  <rect width="1120" height="900" fill="#fff"/>
+  <rect class="box" x="360" y="35" width="400" height="70"/><text class="text" x="560" y="78">持久会话／任务状态</text>
+  <path class="line" d="M560 105V155"/>
+  <rect class="box accent" x="280" y="155" width="560" height="250"/>
+  <text class="text head" x="560" y="198">HARNESS</text>
+  <text class="text body" x="560" y="235"><tspan x="560" dy="0">上下文选择 · 模型循环 · 工具路由</tspan><tspan x="560" dy="34">策略／审批 · 验证 · 重试／恢复 · 预算</tspan></text>
+  <text class="text" x="80" y="285">任务</text><path class="line" d="M130 278H280"/>
+  <rect class="box" x="400" y="485" width="320" height="80"/><text class="text head" x="560" y="535">模型</text>
+  <path class="line" d="M560 405V485"/><text class="text label" x="610" y="452">上下文</text>
+  <rect class="box" x="280" y="645" width="560" height="105"/><text class="text" x="560" y="687"><tspan x="560" dy="0">工具／MCP／沙箱</tspan><tspan x="560" dy="34">文件／API／浏览器</tspan></text>
+  <path class="line" d="M560 565V645"/><text class="text label" x="600" y="615">行动</text>
+  <path class="line" d="M840 697H985V280H840"/><text class="text label" x="945" y="475">观察结果</text>
+  <rect class="band" x="70" y="785" width="980" height="45"/><text class="text label" x="560" y="814">硬边界：权限 · 凭据 · 文件系统 · 网络 · Schema · 预算</text>
+  <rect class="feedback" x="70" y="845" width="980" height="45"/><text class="text label" x="560" y="874">反馈：测试 · UI 状态 · 日志 · 指标 · Trace · 结果 · 评分器</text>
+</svg>
