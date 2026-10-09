@@ -22,6 +22,7 @@
 - [设计 MCP Gateway：Uber 的 MCP 管理平台](./docs/UberMCPGateway/设计MCP-Gateway-Uber的MCP管理平台.md)
 - [在 Uber 的规模下高效运转软件工厂](./docs/Uber软件工厂/在Uber规模下高效运转软件工厂.md)
 - [理解 Harness 工程：从 Agent 循环、工具接口，到上下文、沙箱、验证与长程任务](./docs/Harness工程/理解Harness工程.md)
+- [无限 SaaS 工厂](./docs/无限SaaS工厂/无限SaaS工厂.md)
 - **AI 工程技能图谱（Andrew Ng）**
   1. [构建与部署 AI 应用](./docs/AI工程技能图谱/01-构建与部署AI应用.md)
   2. [软件工程基础](./docs/AI工程技能图谱/02-软件工程基础.md)
