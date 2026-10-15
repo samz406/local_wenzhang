@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "X 文章一键导出 Markdown",
+  "version": "1.0.0",
+  "description": "将当前已打开的 X 文章或帖子保存为 Markdown，保留格式、出处与图片链接。",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_title": "导出当前 X 文章为 Markdown" },
+  "background": { "service_worker": "background.js" }
+}

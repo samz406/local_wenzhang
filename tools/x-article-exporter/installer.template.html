@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>X 文章一键导出 Markdown</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;background:#f4f6ef;color:#20332b;font:16px/1.8 system-ui,-apple-system,sans-serif}main{max-width:780px;margin:64px auto;padding:0 24px}.eyebrow{font:12px ui-monospace,monospace;letter-spacing:2px;color:#63806a}h1{font-size:clamp(30px,5vw,45px);line-height:1.25;letter-spacing:-1px;margin:20px 0}p{color:#53665a}.card{background:#fff;border:1px solid #d7e1d4;border-radius:20px;padding:28px;margin:28px 0}.bookmark{display:inline-block;color:#fff;background:#176148;padding:13px 24px;border-radius:10px;text-decoration:none;font-weight:650}button{font:inherit;border:1px solid #bccdbb;background:#eff4ec;color:#244b36;border-radius:8px;padding:8px 14px;cursor:pointer}li{padding:5px 0}h2{font-size:21px;margin:0 0 12px}.small{font-size:13px}code{background:#e9efe5;border-radius:4px;padding:2px 5px}textarea{width:100%;height:100px;border:1px solid #c6d5c2;margin-top:12px;font:12px monospace}a{color:#176148}footer{font-size:13px;color:#6b7e6f;margin:32px 0}
+</style>
+<main>
+  <div class="eyebrow">LOCAL WENZHANG / READING TOOLS</div>
+  <h1>好文章，留一份。<br>X → Markdown</h1>
+  <p>在你自己的浏览器里导出已打开的文章。保留标题、作者、出处、段落、列表与图片链接，方便归档、阅读和提交翻译。</p>
+  <section class="card">
+    <h2>方式一 · 拖到书签栏</h2>
+    <p>将下面的绿色按钮拖到浏览器书签栏。安装一次，以后打开文章点击书签即可下载。</p>
+    <a class="bookmark" id="bookmark" href="__BOOKMARKLET_HREF__">↓ 导出 X 文章</a>
+    <p class="small">显示书签栏：Mac 按 <code>⌘⇧B</code>，Windows 按 <code>Ctrl+Shift+B</code>。直接点击此页按钮不会导出 X 文章。</p>
+    <button id="copy" type="button">复制书签地址，手动新建书签</button>
+    <p id="copy-status" class="small" aria-live="polite"></p>
+    <textarea id="manual" hidden readonly aria-label="书签地址"></textarea>
+  </section>
+  <section class="card">
+    <h2>方式二 · 固定到 Chrome / Edge 工具栏</h2>
+    <ol>
+      <li>下载并解压 <a href="x-article-exporter.zip" download>扩展安装包</a>。</li>
+      <li>打开 <code>chrome://extensions</code>（Edge 使用 <code>edge://extensions</code>），开启“开发者模式”。</li>
+      <li>点击“加载已解压的扩展程序”，选择包含 <code>manifest.json</code> 的文件夹，再把扩展固定到工具栏。</li>
+    </ol>
+    <p class="small">书签受页面策略或长度限制无法运行时，使用扩展版本。扩展仅申请当前标签页的临时访问和脚本执行权限。</p>
+  </section>
+  <section class="card">
+    <h2>每次使用，只需三步</h2>
+    <ol>
+      <li>打开 X 文章详情，展开全文并滚动到末尾，确保内容已经加载。</li>
+      <li>点书签或扩展图标，自动保存 <code>文章标题.md</code>。右下角可预览、复制或再次下载。</li>
+      <li>核对首尾内容。识别失败时，关闭提示面板，鼠标选中正文，再点一次导出。</li>
+    </ol>
+    <p class="small">图片保存为在线原图链接；视频与嵌入帖保留访问入口。工具无法验证页面是否已加载全部正文，也不导出评论区。无需 API Key，不读取 Cookie，不把文章上传到其他服务器。</p>
+  </section>
+  <footer>源码与说明：<a href="https://github.com/samz406/local_wenzhang/tree/main/tools/x-article-exporter">samz406/local_wenzhang</a> · v1.0.0</footer>
+</main>
+<script>
+  const bookmarklet = __BOOKMARKLET_JSON__;
+  document.getElementById('bookmark').addEventListener('click', event => {
+    event.preventDefault();
+    document.getElementById('copy-status').textContent = '请把绿色按钮拖到书签栏，再到 X 文章页面点击该书签。';
+  });
+  document.getElementById('copy').addEventListener('click', async () => {
+    const status = document.getElementById('copy-status');
+    try { await navigator.clipboard.writeText(bookmarklet); status.textContent = '已复制。新建书签，把内容粘贴到“网址”一栏。'; }
+    catch (_) { const field = document.getElementById('manual'); field.hidden = false; field.value = bookmarklet; field.select(); status.textContent = '请按 Ctrl/Cmd+C 复制下面的书签地址。'; }
+  });
+</script>
+</html>

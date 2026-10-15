@@ -31,6 +31,10 @@
   3. [使用编码智能体](./docs/AI工程技能图谱/03-使用编码智能体.md)
   4. [塑造构建方向](./docs/AI工程技能图谱/04-塑造构建方向.md)
 
+## 阅读工具
+
+新增 [X 文章一键导出 Markdown](./tools/x-article-exporter/README.md)：提供[书签安装页](./tools/x-article-exporter/install.html)和 [Chrome / Edge 扩展安装包](./tools/x-article-exporter/x-article-exporter.zip)。打开 X 文章、展开并加载全文后，点击即可保存 Markdown，保留出处、正文格式与原图链接；结构识别失败时支持手动选中正文导出。下载的文件可直接上传到对话中作为翻译原文。使用范围与首尾核对方法见工具说明。
+
 ## 标准交付物
 
 每篇文章默认生成中文完整译文；需要中英对照时，再增加一份逐段对照文档：
