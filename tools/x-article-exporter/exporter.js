@@ -8,13 +8,18 @@
     '[data-testid="longformRichTextComponent"]',
     '[data-testid="twitterArticleReadView"] .public-DraftEditor-content',
     '[data-testid="twitterArticleReadView"] .DraftEditor-root',
+    '.x-article-body',
   ];
   const TITLE_SELECTOR = '[data-testid="twitterArticleReadViewTitle"], [data-testid="twitterArticleTitle"]';
   const TWEET_SELECTOR = 'article[data-testid="tweet"]';
   const SKIP = 'script, style, noscript, nav, [hidden], [aria-hidden="true"], #x-article-exporter';
 
   function text(node) {
-    return (node?.textContent || '').replace(/\s+/g, ' ').trim();
+    return (node?.innerText || node?.textContent || '').replace(/\s+/g, ' ').trim();
+  }
+
+  function ownerTweet(node) {
+    return node.closest(TWEET_SELECTOR) || node.closest('article');
   }
 
   function escapeText(value) {
@@ -121,13 +126,13 @@
     }
     const decorate = (value, token) => value.replace(/^(\s*)([\s\S]*?\S)(\s*)$/, (_, before, middle, after) => before + token + middle + token + after);
     const weight = node.style?.fontWeight;
-    if (tag === 'strong' || tag === 'b' || weight === 'bold' || Number(weight) >= 600) {
+    if ((tag === 'strong' || tag === 'b' || weight === 'bold' || Number(weight) >= 600) && !node.parentElement?.closest('b, strong')) {
       content = decorate(content, '**');
     }
-    if (tag === 'em' || tag === 'i' || node.style?.fontStyle === 'italic') {
+    if ((tag === 'em' || tag === 'i' || node.style?.fontStyle === 'italic') && !node.parentElement?.closest('em, i')) {
       content = decorate(content, '*');
     }
-    if (tag === 'del' || tag === 's' || node.style?.textDecorationLine === 'line-through') {
+    if ((tag === 'del' || tag === 's' || node.style?.textDecorationLine === 'line-through') && !node.parentElement?.closest('del, s')) {
       content = decorate(content, '~~');
     }
     return /^(p|div|section|figure|figcaption|article)$/.test(tag) ? block(content) : content;
@@ -176,6 +181,16 @@
         catch (_) { return false; }
       })) return node;
     }
+    // The semantic article layout has no test IDs or <time> element.
+    for (const node of doc.querySelectorAll('article')) {
+      const body = node.querySelector('.x-article-body');
+      if (!body || !node.querySelector('h1') || !visible(node)) continue;
+      if (Array.from(node.querySelectorAll('a[href]')).some(link => {
+        if (body.contains(link) || ownerTweet(link) !== node) return false;
+        try { return new URL(link.getAttribute('href'), url).pathname.match(/\/status\/(\d+)/)?.[1] === id; }
+        catch (_) { return false; }
+      })) return node;
+    }
     return null;
   }
 
@@ -190,8 +205,19 @@
     const userText = text(user);
     const pathHandle = url.pathname.match(/^\/(?!i\/)([a-zA-Z0-9_]+)\/(?:status|article)\//)?.[1];
     const handle = userText.match(/@[a-zA-Z0-9_]+/)?.[0] || (pathHandle ? '@' + pathHandle : '');
-    const userName = text(user?.querySelector('a span')) || userText.split('@')[0].trim();
-    const time = scope?.querySelector('time[datetime]')?.getAttribute('datetime') || '';
+    const profile = pathHandle ? '/' + pathHandle.toLowerCase() : '';
+    const profileName = Array.from(scope?.querySelectorAll('a[href]') || []).find(link => {
+      if (body?.contains(link) || !text(link) || text(link).startsWith('@')) return false;
+      try { return new URL(link.getAttribute('href'), url).pathname.toLowerCase() === profile; }
+      catch (_) { return false; }
+    });
+    const userName = text(user?.querySelector('a span')) || userText.split('@')[0].trim() || text(profileName);
+    const timestampLink = Array.from(scope?.querySelectorAll('a[href]') || []).find(link => {
+      if (body?.contains(link) || !/\d{1,2}:\d{2}/.test(text(link))) return false;
+      try { return new URL(link.getAttribute('href'), url).pathname === url.pathname; }
+      catch (_) { return false; }
+    });
+    const time = scope?.querySelector('time[datetime]')?.getAttribute('datetime') || text(timestampLink);
     const title = (text(heading) || documentTitle(doc) || text(body).slice(0, 64) || 'X 文章').slice(0, 240);
     return { title, author: userName ? userName + (handle ? '（' + handle + '）' : '') : handle || '未识别', published: time };
   }
@@ -224,13 +250,14 @@
       const candidates = [...new Set(BODY_SELECTORS.flatMap(selector => Array.from(doc.querySelectorAll(selector))))]
         .filter(visible).filter(el => {
           if (readView) return readView.contains(el);
-          if (tweet) return tweet.contains(el) && el.closest(TWEET_SELECTOR) === tweet && !el.closest('[data-testid="quoteTweet"]');
+          if (tweet) return tweet.contains(el) && ownerTweet(el) === tweet && !el.closest('[data-testid="quoteTweet"]');
           return /\/(?:article)\/\d+/.test(url.pathname);
         }).sort((a, b) => text(b).length - text(a).length);
       body = candidates[0];
       if (body) {
         mode = 'X 长文章';
-        scope = body.closest('[data-testid="twitterArticleReadView"]') || tweet || readView;
+        scope = body.closest('[data-testid="twitterArticleReadView"]') || tweet || readView || body.closest('article');
+        if (body.matches('.x-article-body')) body = body.querySelector(':scope > .contents') || body;
       } else if (tweet) {
         if (tweet.querySelector('[data-testid*="twitterArticle"], a[href*="/article/"]')) {
           throw new Error('当前仍是文章预览卡片。请打开文章全文、滚动到底，再点导出；也可以选中全文后导出。');
@@ -270,7 +297,8 @@
     if (!content.trim()) throw new Error('正文为空。请等待文章加载，或选中正文后重试。');
     const meta = metadata(doc, url, scope, body);
     // The cover normally lives outside the rich-text body.
-    const cover = mode === 'X 长文章' && scope?.querySelector('[data-testid="twitterArticleReadViewCoverImage"] img, [data-testid="twitterArticleCoverImage"] img');
+    const heading = Array.from(scope?.querySelectorAll('h1') || []).find(el => !body.contains(el));
+    const cover = mode === 'X 长文章' && (scope?.querySelector('[data-testid="twitterArticleReadViewCoverImage"] img, [data-testid="twitterArticleCoverImage"] img') || heading?.parentElement.querySelector(':scope > img'));
     if (cover && !body.contains(cover)) content = render(cover, url.href).trim() + '\n\n' + content;
     const warnings = [];
     if (mode === '手动选中') warnings.push('仅导出你选中的部分，请确认包含文章开头和结尾。');

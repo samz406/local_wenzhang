@@ -15,7 +15,8 @@ output = template.replace('__BOOKMARKLET_HREF__', html.escape(bookmarklet, quote
 output = output.replace('__BOOKMARKLET_JSON__', json.dumps(bookmarklet).replace('<', '\\u003c'))
 (ROOT / 'install.html').write_text(output)
 files = ['manifest.json', 'background.js', 'exporter.js', 'run-export.js', 'install.html',
-         'README.md', 'build.py', 'installer.template.html', 'test.mjs', 'test-dom.mjs']
+         'README.md', 'build.py', 'installer.template.html', 'test.mjs', 'test-dom.mjs',
+         'live-verification.json', 'fixtures/semantic-article.html']
 with zipfile.ZipFile(ROOT / 'x-article-exporter.zip', 'w', zipfile.ZIP_DEFLATED) as package:
     for name in files:
         info = zipfile.ZipInfo('x-article-exporter/' + name, date_time=(2026, 1, 1, 0, 0, 0))

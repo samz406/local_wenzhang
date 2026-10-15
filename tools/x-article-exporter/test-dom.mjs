@@ -14,6 +14,7 @@ if (process.env.X_EXPORT_DOM_MODULE) {
 const source = await readFile(new URL('./exporter.js', import.meta.url), 'utf8');
 const installer = await readFile(new URL('./install.html', import.meta.url), 'utf8');
 const background = await readFile(new URL('./background.js', import.meta.url), 'utf8');
+const semanticFixture = await readFile(new URL('./fixtures/semantic-article.html', import.meta.url), 'utf8');
 let count = 0;
 function test(name, fn) { fn(); count++; console.log('PASS', name); }
 
@@ -102,6 +103,18 @@ test('URL 括号转义、完整链接优先、危险链接剥离', () => {
 });
 test('隐藏的旧文章不参与正文选择', () => {
   assert.doesNotMatch(environment('<div style="display:none"><div data-testid="longformRichTextComponent">' + '旧内容'.repeat(200) + '</div></div>' + article).extract().markdown, /旧内容/);
+});
+test('真实页面结构回归：无 testid、嵌套加粗、独立封面和本地化时间', () => {
+  const env = environment(semanticFixture, '/fixture/status/123');
+  const result = env.extract();
+  assert.equal(result.mode, 'X 长文章');
+  assert.equal(result.title, 'Semantic Article Fixture');
+  assert.equal(result.author, '测试作者（@fixture）');
+  assert.equal(result.published, '7:00 · 2026年10月14日');
+  assert.equal(result.imageCount, 4);
+  assert.equal(env.document.querySelectorAll('.x-article-body p').length, 23);
+  for (const p of env.document.querySelectorAll('.x-article-body p')) assert.ok(result.markdown.includes(env.api.markdown(p, result.sourceUrl)));
+  assert.doesNotMatch(result.markdown, /MUST_NOT_EXPORT|\*\*\*\*/);
 });
 test('当前帖子与回复按时间戳链接区分', () => {
   const doc = `<article data-testid="tweet"><a href="/other/status/456"><time>回复</time></a><div data-testid="tweetText">不应导出</div></article>

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.1",
+  "verified_at": "2026-10-15",
+  "source_url": "https://x.com/dhaber/status/2110370065870680236",
+  "environment": "远程 Chrome；当前公开可读页面，无需登录",
+  "method": "将 exporter.js 中同一 extract() 核心作为只读计算运行，不注入 UI 或触发下载",
+  "before_fix": "正文没有 data-testid 标记，1.0.0 自动识别失败",
+  "after_fix": {
+    "success": true,
+    "title": "Winning The Relay Race: Long-Running Agents In High-Value Customer Journeys",
+    "author": "David Haber（@dhaber）",
+    "published_as_displayed": "7:00 · 2026年10月14日",
+    "source_paragraphs": 23,
+    "all_paragraphs_present": true,
+    "first_paragraph_present": true,
+    "last_paragraph_present": true,
+    "image_count": 4,
+    "image_order": "1 张封面，3 张正文图片",
+    "normalized_text_characters": 11377,
+    "markdown_characters": 12119,
+    "stylesheet_excluded": true,
+    "reply_excluded": true,
+    "duplicate_bold_markers": false
+  },
+  "limits": [
+    "仅证明当前页面的核心提取可用，不代表所有 X 页面均兼容",
+    "未验证真实书签点击、扩展安装及浏览器下载落盘",
+    "页面懒加载或虚拟化导致的正文缺失仍需人工核对",
+    "回归样例仅保留页面结构，正文与图片已替换为合成数据"
+  ]
+}
