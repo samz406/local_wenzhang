@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title">
+<title id="title">企业 AI 的演进</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#1a6377"/></marker><marker id="blue-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#5571dc"/></marker></defs>
+<rect width="1200" height="740" fill="#f0ece3"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,LXGW WenKai Lite,sans-serif" fill="#082740">
+<text x="48" y="80" font-size="36" fill="#082740" text-anchor="start" font-weight="700">
+<tspan x="48" dy="0">企业 AI 的演进</tspan>
+</text>
+<polygon points="200,155 480,155 525,330 480,536 200,536 200,330" fill="#e4eef0"/>
+<polygon points="480,155 800,155 845,330 800,536 480,536 525,330" fill="#bbd2d9"/>
+<polygon points="800,155 1120,155 1155,330 1120,536 800,536 845,330" fill="#89b2bf"/>
+<text x="238" y="207" font-size="25" fill="#082740" text-anchor="start" font-weight="700">
+<tspan x="238" dy="0">AI 助手</tspan>
+</text>
+<text x="238" y="248" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="238" dy="0">负责一项任务</tspan>
+</text>
+<text x="238" y="287" font-size="16" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="238" dy="0">“发出这封跟进邮件”</tspan>
+</text>
+<text x="548" y="207" font-size="25" fill="#082740" text-anchor="start" font-weight="700">
+<tspan x="548" dy="0">智能体</tspan>
+</text>
+<text x="548" y="248" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="548" dy="0">负责一次交互</tspan>
+</text>
+<text x="548" y="287" font-size="16" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="548" dy="0">“处理这位客户的退款来电”</tspan>
+</text>
+<text x="858" y="207" font-size="25" fill="#082740" text-anchor="start" font-weight="700">
+<tspan x="858" dy="0">长期运行的智能体</tspan>
+</text>
+<text x="858" y="248" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="858" dy="0">负责最终结果</tspan>
+</text>
+<text x="858" y="287" font-size="16" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="858" dy="0">“让这位客户获得尽可能多的赔偿”</tspan>
+</text>
+<rect x="48" y="397" width="1100" height="68" rx="0" fill="#ffffff" opacity=".30"/>
+<path d="M200 330H1148" stroke="#a4bfc8" stroke-width="1" fill="none" opacity="1"/>
+<path d="M200 397H1148" stroke="#a4bfc8" stroke-width="1" fill="none" opacity="1"/>
+<path d="M200 465H1148" stroke="#a4bfc8" stroke-width="1" fill="none" opacity="1"/>
+<text x="177" y="373" font-size="23" fill="#082740" text-anchor="end" font-weight="700">
+<tspan x="177" dy="0">时间跨度</tspan>
+</text>
+<text x="238" y="373" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="238" dy="0">秒级</tspan>
+</text>
+<text x="548" y="373" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="548" dy="0">分钟级</tspan>
+</text>
+<text x="858" y="373" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="858" dy="0">数周至数月</tspan>
+</text>
+<text x="177" y="441" font-size="23" fill="#082740" text-anchor="end" font-weight="700">
+<tspan x="177" dy="0">工作范围</tspan>
+</text>
+<text x="238" y="441" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="238" dy="0">一条消息</tspan>
+</text>
+<text x="548" y="441" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="548" dy="0">一次通话</tspan>
+</text>
+<text x="858" y="441" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="858" dy="0">完整旅程</tspan>
+</text>
+<text x="177" y="509" font-size="23" fill="#082740" text-anchor="end" font-weight="700">
+<tspan x="177" dy="0">预算</tspan>
+</text>
+<text x="238" y="509" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="238" dy="0">软件支出</tspan>
+</text>
+<text x="548" y="509" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="548" dy="0">人力支出</tspan>
+</text>
+<text x="858" y="509" font-size="23" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="858" dy="0">成果价值分成</tspan>
+</text>
+<text x="52" y="633" font-size="18" fill="#9c978d" text-anchor="start" font-weight="400">
+<tspan x="52" dy="0">注：仅作示意</tspan>
+</text>
+<rect x="0" y="671" width="1200" height="69" rx="0" fill="#f9f8f1"/>
+<text x="52" y="715" font-size="22" fill="#a29b8c" text-anchor="start" font-weight="400">
+<tspan x="52" dy="0">更多图表：a16z.news/subscribe</tspan>
+</text>
+<text x="1145" y="718" font-size="32" fill="#a29b8c" text-anchor="end" font-weight="700">
+<tspan x="1145" dy="0">a16z</tspan>
+</text>
+</g></svg>

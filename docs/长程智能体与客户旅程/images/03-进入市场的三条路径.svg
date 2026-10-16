@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title">
+<title id="title">进入市场的三条路径</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#1a6377"/></marker><marker id="blue-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#5571dc"/></marker></defs>
+<rect width="1200" height="720" fill="#f0ece3"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,LXGW WenKai Lite,sans-serif" fill="#082740">
+<text x="48" y="80" font-size="36" fill="#082740" text-anchor="start" font-weight="700">
+<tspan x="48" dy="0">进入市场的三条路径</tspan>
+</text>
+<rect x="48" y="155" width="1104" height="94" rx="0" fill="#1a6377"/>
+<text x="70" y="213" font-size="26" fill="#fff" text-anchor="start" font-weight="700">
+<tspan x="70" dy="0">市场进入方式</tspan>
+</text>
+<text x="365" y="213" font-size="26" fill="#fff" text-anchor="start" font-weight="700">
+<tspan x="365" dy="0">优势</tspan>
+</text>
+<text x="775" y="213" font-size="26" fill="#fff" text-anchor="start" font-weight="700">
+<tspan x="775" dy="0">挑战</tspan>
+</text>
+<rect x="48" y="249" width="1104" height="94" rx="0" fill="#e4f1f1"/>
+<text x="70" y="291" font-size="24" fill="#082740" text-anchor="start" font-weight="600">
+<tspan x="70" dy="0">卖平台</tspan>
+</text>
+<text x="365" y="287" font-size="22" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="365" dy="0">没有既有合同</tspan>
+<tspan x="365" dy="31">形成价格锚点</tspan>
+</text>
+<text x="775" y="287" font-size="22" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="775" dy="0">销售周期更长，</tspan>
+<tspan x="775" dy="31">成果归因更复杂</tspan>
+</text>
+<rect x="48" y="343" width="1104" height="94" rx="0" fill="#f4f8f7"/>
+<path d="M48 343H1152" stroke="#b5c9c9" stroke-width="1" fill="none" opacity="1"/>
+<text x="70" y="385" font-size="24" fill="#082740" text-anchor="start" font-weight="600">
+<tspan x="70" dy="0">卖服务</tspan>
+</text>
+<text x="365" y="381" font-size="22" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="365" dy="0">投资回报计算简单，</tspan>
+<tspan x="365" dy="31">销售周期更短</tspan>
+</text>
+<text x="775" y="369" font-size="20" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="775" dy="0">最高价值的工作流</tspan>
+<tspan x="775" dy="25">多由企业内部完成，</tspan>
+<tspan x="775" dy="25">增长空间受限</tspan>
+</text>
+<rect x="48" y="437" width="1104" height="94" rx="0" fill="#e4f1f1"/>
+<path d="M48 437H1152" stroke="#b5c9c9" stroke-width="1" fill="none" opacity="1"/>
+<text x="70" y="479" font-size="24" fill="#082740" text-anchor="start" font-weight="600">
+<tspan x="70" dy="0">做全栈业务</tspan>
+</text>
+<text x="365" y="475" font-size="22" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="365" dy="0">完整获取所创造的价值，</tspan>
+<tspan x="365" dy="31">不存在归因难题</tspan>
+</text>
+<text x="775" y="475" font-size="22" fill="#082740" text-anchor="start" font-weight="400">
+<tspan x="775" dy="0">承担全部业务环节，</tspan>
+<tspan x="775" dy="31">运营复杂度高</tspan>
+</text>
+<text x="52" y="613" font-size="18" fill="#9c978d" text-anchor="start" font-weight="400">
+<tspan x="52" dy="0">注：仅作示意</tspan>
+</text>
+<rect x="0" y="651" width="1200" height="69" rx="0" fill="#f9f8f1"/>
+<text x="52" y="695" font-size="22" fill="#a29b8c" text-anchor="start" font-weight="400">
+<tspan x="52" dy="0">更多图表：a16z.news/subscribe</tspan>
+</text>
+<text x="1145" y="698" font-size="32" fill="#a29b8c" text-anchor="end" font-weight="700">
+<tspan x="1145" dy="0">a16z</tspan>
+</text>
+</g></svg>
