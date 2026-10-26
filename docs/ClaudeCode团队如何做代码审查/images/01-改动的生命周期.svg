@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="art-diagram-wide" id="code-review-life-of-a-change" width="651" height="522" viewBox="2 0 651 522"><style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif}</style>
+<rect x="2.0" y="0.0" width="651.0" height="522.0" fill="#faf9f5" /><path d="M11 33.5 L11 460.5" fill="none" stroke-width="1" stroke-linejoin="round" style="stroke:#c7c7c3" />
+<circle cx="11" cy="33.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="33.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 33.5 L10.2 35.8 L14.2 31.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="114.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="114.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 114.5 L10.2 116.8 L14.2 112.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="161.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="161.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 161.5 L10.2 163.8 L14.2 159.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="208.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="208.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 208.5 L10.2 210.8 L14.2 206.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="255.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<polygon points="11,248.5 18,255.5 11,262.5 4,255.5" style="fill:#c15f3c" />
+<circle cx="11" cy="336.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="336.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 336.5 L10.2 338.8 L14.2 334.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="400.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="400.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 400.5 L10.2 402.8 L14.2 398.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="430.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="430.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 430.5 L10.2 432.8 L14.2 428.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<circle cx="11" cy="460.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<path d="M16.6 462.5 A6 6 0 1 1 14.4 455.5" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<path d="M11.6 453.9 L14.6 455.5 L13.6 458.7" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<text x="32" y="14" font-size="11" font-weight="500" class="mono" style="fill:#4c4b45">创建 PR 之前</text>
+<text x="32" y="38" font-size="14" font-weight="500" style="fill:#141413">验证工作结果</text>
+<text x="277" y="38" font-size="13" style="fill:#4c4b45">Claude 运行测试、构建和 lint；另一个智能体</text>
+<text x="277" y="55" font-size="13" style="fill:#4c4b45">在全新上下文中审查代码差异</text>
+<text x="32" y="95" font-size="11" font-weight="500" class="mono" style="fill:#4c4b45">每一个 PR</text>
+<text x="32" y="119" font-size="14" font-weight="500" style="fill:#141413">必需的 CI 检查</text>
+<text x="277" y="119" font-size="13" style="fill:#4c4b45">lint、类型、跨平台测试、构建及打包；失败时</text>
+<text x="277" y="136" font-size="13" style="fill:#4c4b45">阻止合并</text>
+<text x="32" y="166" font-size="14" font-weight="500" style="fill:#141413">Claude 代码审查</text>
+<text x="277" y="166" font-size="13" style="fill:#4c4b45">智能体并行查错，验证智能体对问题投票，</text>
+<text x="277" y="183" font-size="13" style="fill:#4c4b45">保留下来的问题按严重程度排序</text>
+<text x="32" y="213" font-size="14" font-weight="500" style="fill:#141413">安全审查</text>
+<text x="277" y="213" font-size="13" style="fill:#4c4b45">独立审查；代码审查或安全审查中未解决的问题</text>
+<text x="277" y="230" font-size="13" style="fill:#4c4b45">都会阻止合并</text>
+<text x="32" y="260" font-size="14" font-weight="500" style="fill:#141413">按风险分级审批</text>
+<text x="277" y="260" font-size="13" style="fill:#4c4b45">分类器决定无需人工、1 人或 2 人审批；部分路径</text>
+<text x="277" y="277" font-size="13" style="fill:#4c4b45">始终需要人工审批</text>
+<text x="32" y="317" font-size="11" font-weight="500" class="mono" style="fill:#4c4b45">合并时</text>
+<text x="32" y="341" font-size="14" font-weight="500" style="fill:#141413">合并队列</text>
+<text x="277" y="341" font-size="13" style="fill:#4c4b45">将改动应用到最新 main，再次运行检查</text>
+<text x="32" y="381" font-size="11" font-weight="500" class="mono" style="fill:#4c4b45">合并后</text>
+<text x="32" y="405" font-size="14" font-weight="500" style="fill:#141413">通过功能开关控制，先供内部使用</text>
+<text x="277" y="405" font-size="13" style="fill:#4c4b45">Anthropic 员工先使用，再向所有用户发布</text>
+<text x="32" y="435" font-size="14" font-weight="500" style="fill:#141413">逐步发布</text>
+<text x="277" y="435" font-size="13" style="fill:#4c4b45">先进入 latest 渠道，stable 渠道随后跟进</text>
+<text x="32" y="465" font-size="14" font-weight="500" style="fill:#141413">监测、向前修复或回滚</text>
+<text x="277" y="465" font-size="13" style="fill:#4c4b45">作者和值班人员监测；快速关闭功能开关，</text>
+<text x="277" y="482" font-size="13" style="fill:#4c4b45">有问题的构建予以回滚</text>
+<circle cx="11" cy="511.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<circle cx="11" cy="511.5" r="6.5" fill="none" stroke-width="1" style="stroke:#65645e" />
+<path d="M8 511.5 L10.2 513.8 L14.2 509.3" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<text x="26" y="516" font-size="13" style="fill:#4c4b45">自动执行</text>
+<circle cx="122.66593017578126" cy="511.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<polygon points="122.66593017578126,504.5 129.66593017578126,511.5 122.66593017578126,518.5 115.66593017578126,511.5" style="fill:#c15f3c" />
+<text x="137.66593017578126" y="516" font-size="13" style="fill:#4c4b45">由人决定，按风险分级</text>
+<circle cx="355.21875244140625" cy="511.5" r="7" stroke-width="2" style="fill:#faf9f5;stroke:#faf9f5" />
+<path d="M360.8187524414063 513.5 A6 6 0 1 1 358.61875244140623 506.5" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<path d="M355.8187524414063 504.9 L358.8187524414063 506.5 L357.8187524414063 509.7" fill="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" style="stroke:#3d3d3a" />
+<text x="370.21875244140625" y="516" font-size="13" style="fill:#4c4b45">恢复机制</text>
+</svg>
